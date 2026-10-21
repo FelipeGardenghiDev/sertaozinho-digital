@@ -78,29 +78,36 @@ O projeto adota a arquitetura **Jamstack / Flat-File no Git**:
 
 ---
 
-## 📱 Como Gerar o APK / AAB para Android (Play Store)
+## 📱 Como Gerar o APK para Android (Padrão Garden Apps & Capacitor)
 
-O projeto foi configurado com suporte nativo a **TWA (*Trusted Web Activity*)**. Isso significa que o mesmo código web pode ser empacotado em um aplicativo nativo Android leve (~2.5 MB) pronto para a Google Play Store.
-
-### Opção 1: Usando o Google Bubblewrap (Recomendado)
-
-O [Bubblewrap](https://github.com/GoogleChromeLabs/bubblewrap) é a ferramenta oficial do time do Google Chrome:
+O **Sertãozinho Digital** adota a **mesma arquitetura móvel oficial dos outros sistemas Garden (`garden-sfx-lab`, `garden-cut`, `garden-subtitle`)**, utilizando **Capacitor Android**:
 
 ```bash
-# 1. Instale o CLI oficial do Google
-npm install -g @bubblewrap/cli
+# 1. Compilar os assets web e sincronizar com o projeto nativo Android
+npm run mobile:sync
 
-# 2. Inicialize o projeto apontando para a URL do Sertãozinho Digital
-bubblewrap init --manifest="https://felipegardenghidev.github.io/sertaozinho-digital/manifest.webmanifest"
+# 2. Abrir o projeto no Android Studio para rodar em emulador ou dispositivo físico
+npm run mobile:open
 
-# 3. Compile o APK de teste e o bundle (.aab) para a Play Store
-bubblewrap build
+# 3. Ou compilar diretamente o APK de teste via linha de comando:
+cd android
+./gradlew assembleDebug
+# O APK gerado estará em: android/app/build/outputs/apk/debug/app-debug.apk
 ```
 
-### Opção 2: Usando o PWABuilder (Interface Web em 1 Clique)
-1. Acesse [PWABuilder.com](https://www.pwabuilder.com/);
-2. Cole a URL do aplicativo (`https://felipegardenghidev.github.io/sertaozinho-digital/`);
-3. Clique em **"Package for Android"** para baixar o `.apk` e o pacote pronto para a Play Store.
+---
+
+## 📄 O que é o `.webmanifest`?
+
+O arquivo `.webmanifest` (ou `manifest.webmanifest` / `manifest.json`) é a **"carteira de identidade"** de um site para os navegadores e smartphones:
+
+* **Sem o webmanifest:** Se você tentar "adicionar à tela inicial" no Chrome, ele apenas cria um atalho de favorito comum, abrindo o navegador com a barra de endereços visível e sem identidade própria.
+* **Com o webmanifest:** O Android e o iOS reconhecem o site como uma **Progressive Web App (PWA)** real:
+  1. **`name` / `short_name`:** Define o nome do aplicativo na gaveta de apps (ex: *"Stz Digital"*).
+  2. **`icons`:** Especifica os ícones de alta resolução e com máscara adaptativa (*maskable*) para o app.
+  3. **`display: "standalone"`:** Remove a barra de navegação do Chrome, fazendo o site abrir em **tela cheia** como se tivesse sido instalado pela Play Store.
+  4. **`theme_color` e `background_color`:** Pinta a barra de status do topo do celular e exibe a tela de abertura (*splash screen*) na cor esmeralda do projeto.
+  5. **`start_url`:** Garante que o aplicativo sempre abra na página inicial limpa.
 
 ---
 
