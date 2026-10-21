@@ -1,0 +1,79 @@
+[
+  {
+    "id": "coleta-1",
+    "bairro": "Centro",
+    "regiao": "Centro",
+    "coletaComumDias": "Segunda a Sábado",
+    "coletaComumPeriodo": "Noturno (a partir das 19h)",
+    "coletaSeletivaDias": "Quarta-feira (Diurno)",
+    "cataTrecoDiaSemana": "Toda 1ª Segunda-feira do mês",
+    "observacoes": "Área comercial e bancária: lixo deve ser colocado na calçada após as 18h30."
+  },
+  {
+    "id": "coleta-2",
+    "bairro": "Jardim Alvorada",
+    "regiao": "Norte",
+    "coletaComumDias": "Segunda, Quarta e Sexta",
+    "coletaComumPeriodo": "Diurno (a partir das 07h)",
+    "coletaSeletivaDias": "Terça-feira (Manhã)",
+    "cataTrecoDiaSemana": "Toda 2ª Terça-feira do mês",
+    "observacoes": "Colocar materiais recicláveis em sacos transparentes ou caixas de papelão."
+  },
+  {
+    "id": "coleta-3",
+    "bairro": "Alto do Ginásio",
+    "regiao": "Norte",
+    "coletaComumDias": "Segunda, Quarta e Sexta",
+    "coletaComumPeriodo": "Diurno (a partir das 07h)",
+    "coletaSeletivaDias": "Terça-feira (Tarde)",
+    "cataTrecoDiaSemana": "Toda 2ª Terça-feira do mês",
+    "observacoes": "Ponto de entrega voluntária de eletrônicos no Ginásio Docão."
+  },
+  {
+    "id": "coleta-4",
+    "bairro": "Cohab 1 / Cohab 2 / Cohab 3",
+    "regiao": "Leste",
+    "coletaComumDias": "Terça, Quinta e Sábado",
+    "coletaComumPeriodo": "Diurno (a partir das 07h)",
+    "coletaSeletivaDias": "Quinta-feira (Manhã)",
+    "cataTrecoDiaSemana": "Toda 3ª Quarta-feira do mês",
+    "observacoes": "Cata-treco recolhe sofás, móveis velhos e eletrodomésticos na calçada até 08h."
+  },
+  {
+    "id": "coleta-5",
+    "bairro": "Cohab 8 / Vila Garcia",
+    "regiao": "Leste",
+    "coletaComumDias": "Terça, Quinta e Sábado",
+    "coletaComumPeriodo": "Diurno (a partir das 07h)",
+    "coletaSeletivaDias": "Sexta-feira (Manhã)",
+    "cataTrecoDiaSemana": "Toda 3ª Quarta-feira do mês"
+  },
+  {
+    "id": "coleta-6",
+    "bairro": "Jardim Jamaica / Jardim Recreio",
+    "regiao": "Oeste",
+    "coletaComumDias": "Segunda, Quarta e Sexta",
+    "coletaComumPeriodo": "Noturno (a partir das 19h)",
+    "coletaSeletivaDias": "Segunda-feira (Tarde)",
+    "cataTrecoDiaSemana": "Toda 4ª Quinta-feira do mês"
+  },
+  {
+    "id": "coleta-7",
+    "bairro": "Jardim Grande Aliança / UPA",
+    "regiao": "Sul",
+    "coletaComumDias": "Segunda a Sábado",
+    "coletaComumPeriodo": "Diurno (a partir das 07h)",
+    "coletaSeletivaDias": "Sábado (Manhã)",
+    "cataTrecoDiaSemana": "Toda 1ª Quinta-feira do mês"
+  },
+  {
+    "id": "coleta-8",
+    "bairro": "Distrito de Cruz das Posses",
+    "regiao": "Distrito",
+    "coletaComumDias": "Segunda, Quarta e Sexta",
+    "coletaComumPeriodo": "Diurno (a partir das 07h)",
+    "coletaSeletivaDias": "Quarta-feira (Tarde)",
+    "cataTrecoDiaSemana": "Toda 1ª Terça-feira do mês",
+    "observacoes": "Agendamento prévio de cata-treco especial na Subprefeitura de Cruz das Posses."
+  }
+]

@@ -74,3 +74,47 @@ export interface FarmaciaPlantao {
   horario: string;
   hojePlantao: boolean;
 }
+
+export interface LinhaOnibus {
+  id: string;
+  codigoLinha: string;
+  nomeLinha: string;
+  tipo: 'Suburbano (Ribeirão Preto)' | 'Circular Urbana (Bairros)' | 'Distrito (Cruz das Posses)';
+  tarifa: number;
+  itinerarioResumo: string;
+  horariosSegundaSexta: string[];
+  horariosSabado: string[];
+  horariosDomingoFeriado: string[];
+}
+
+export interface PontoTransporte {
+  id: string;
+  nome: string;
+  tipo: 'Ponto de Táxi' | 'Ponto de Moto-Táxi' | 'Terminal Rodoviário';
+  endereco: string;
+  telefone: string;
+  whatsapp?: string;
+  atendimento24h: boolean;
+}
+
+export interface ColetaBairro {
+  id: string;
+  bairro: string;
+  regiao: 'Norte' | 'Sul' | 'Leste' | 'Oeste' | 'Centro' | 'Distrito';
+  coletaComumDias: string;
+  coletaComumPeriodo: 'Diurno (a partir das 07h)' | 'Noturno (a partir das 19h)';
+  coletaSeletivaDias: string;
+  cataTrecoDiaSemana: string;
+  observacoes?: string;
+}
+
+export interface InfoCruzDasPosses {
+  id: string;
+  titulo: string;
+  categoria: 'Saúde' | 'Serviços' | 'Transporte' | 'Comércio' | 'História';
+  descricao: string;
+  endereco?: string;
+  telefone?: string;
+  whatsapp?: string;
+  destaque?: boolean;
+}

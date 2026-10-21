@@ -1,0 +1,45 @@
+[
+  {
+    "id": "cp-1",
+    "titulo": "Subprefeitura de Cruz das Posses",
+    "categoria": "Serviços",
+    "descricao": "Atendimento ao cidadão, protocolo, IPTU, certidões e agendamento de serviços municipais no distrito.",
+    "endereco": "Rua Tenente Hélio, 420 - Centro de Cruz das Posses",
+    "telefone": "(16) 3949-1200",
+    "whatsapp": "5516997001200",
+    "destaque": true
+  },
+  {
+    "id": "cp-2",
+    "titulo": "UBS Dr. Gabriel Garcia de Andrade (Cruz das Posses)",
+    "categoria": "Saúde",
+    "descricao": "Unidade Básica de Saúde com consultas médicas, vacinação, distribuição de medicamentos e atendimento de enfermagem.",
+    "endereco": "Rua Silva Jardim, 310",
+    "telefone": "(16) 3949-1450",
+    "destaque": true
+  },
+  {
+    "id": "cp-3",
+    "titulo": "Plantão de Ambulância e Emergência 24h",
+    "categoria": "Saúde",
+    "descricao": "Base de suporte para remoções de urgência até a UPA ou Santa Casa de Sertãozinho.",
+    "telefone": "192",
+    "destaque": true
+  },
+  {
+    "id": "cp-4",
+    "titulo": "Linha Direta de Ônibus: Cruz das Posses ⇄ Sertãozinho",
+    "categoria": "Transporte",
+    "descricao": "Ônibus regular ligando a Praça da Matriz de Cruz das Posses até o Terminal Rodoviário de Sertãozinho com saídas diárias a cada 1h30.",
+    "endereco": "Ponto Central na Praça da Matriz Santo Antônio",
+    "telefone": "(16) 3945-3000",
+    "destaque": true
+  },
+  {
+    "id": "cp-5",
+    "titulo": "História & Tradição do Distrito",
+    "categoria": "História",
+    "descricao": "Fundado no final do século XIX pela ferrovia e lavouras cafeeiras e canavieiras, o distrito de Cruz das Posses preserva o clima acolhedor de vila histórica e fortes celebrações religiosas à Santo Antônio.",
+    "destaque": false
+  }
+]

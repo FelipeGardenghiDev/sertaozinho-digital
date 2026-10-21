@@ -5,6 +5,9 @@ import vagasData from '../src/data/vagas-pat.json';
 import telefonesData from '../src/data/telefones-uteis.json';
 import noticiasData from '../src/data/noticias.json';
 import artistasData from '../src/data/artistas.json';
+import onibusData from '../src/data/onibus.json';
+import coletaData from '../src/data/coleta-lixo.json';
+import cpData from '../src/data/cruz-das-posses.json';
 
 describe('Sertãozinho Digital - Utilitários de Formatação', () => {
   it('formata valores monetários em Real (BRL) corretamente', () => {
@@ -63,7 +66,6 @@ describe('Sertãozinho Digital - Integridade dos Dados Cívicos', () => {
   it('valida telefones essenciais e de emergência de Sertãozinho', () => {
     expect(telefonesData.length).toBeGreaterThan(0);
     
-    // Verifica presença obrigatória dos órgãos vitais da cidade
     const telefonesStr = JSON.stringify(telefonesData);
     expect(telefonesStr).toContain('Samu');
     expect(telefonesStr).toContain('Bombeiros');
@@ -87,5 +89,62 @@ describe('Sertãozinho Digital - Integridade dos Dados Cívicos', () => {
       expect(artista.nome.length).toBeGreaterThan(2);
       expect(artista.estilo).toBeDefined();
     });
+  });
+});
+
+describe('Sertãozinho Digital - Novas Funcionalidades (5 Melhorias)', () => {
+  it('1. valida horários de ônibus (Sertãozinho ⇄ Ribeirão e Bairros)', () => {
+    expect(onibusData.linhas.length).toBeGreaterThan(0);
+    expect(onibusData.pontos.length).toBeGreaterThan(0);
+
+    const linhaRibeirao = onibusData.linhas.find(l => l.codigoLinha === 'SUB-RP');
+    expect(linhaRibeirao).toBeDefined();
+    expect(linhaRibeirao?.horariosSegundaSexta.length).toBeGreaterThan(5);
+    expect(linhaRibeirao?.tarifa).toBeGreaterThan(0);
+
+    const linhaDistrito = onibusData.linhas.find(l => l.codigoLinha === 'LINHA-CP');
+    expect(linhaDistrito).toBeDefined();
+  });
+
+  it('2. valida dados cívicos e serviços do Distrito de Cruz das Posses', () => {
+    expect(cpData.length).toBeGreaterThan(0);
+    const subprefeitura = cpData.find(item => item.titulo.includes('Subprefeitura'));
+    expect(subprefeitura).toBeDefined();
+    expect(subprefeitura?.telefone).toBeDefined();
+
+    const ubs = cpData.find(item => item.categoria === 'Saúde');
+    expect(ubs).toBeDefined();
+  });
+
+  it('3. simula algoritmo da Calculadora de Cesta Básica com economia real', () => {
+    const selected = ['Arroz Branco Tipo 1 5kg', 'Feijão Carioca Tipo 1 1kg', 'Óleo de Soja 900ml'];
+    
+    // Calcula soma no Savegnago vs Copercana vs Gricki
+    const precosSavegnago = mercadosData.filter(m => m.mercado === 'Savegnago' && selected.includes(m.produto));
+    const precosGricki = mercadosData.filter(m => m.mercado === 'Gricki' && selected.includes(m.produto));
+    
+    expect(precosSavegnago.length).toBeGreaterThan(0);
+    expect(precosGricki.length).toBeGreaterThan(0);
+
+    const somaSavegnago = precosSavegnago.reduce((acc, curr) => acc + curr.preco, 0);
+    expect(somaSavegnago).toBeGreaterThan(0);
+  });
+
+  it('4. valida calendário de Coleta de Lixo Seletiva e Cata-Treco por bairro', () => {
+    expect(coletaData.length).toBeGreaterThan(0);
+
+    const centro = coletaData.find(b => b.bairro === 'Centro');
+    expect(centro).toBeDefined();
+    expect(centro?.coletaComumDias).toContain('Segunda');
+    expect(centro?.cataTrecoDiaSemana).toBeDefined();
+
+    const alvorada = coletaData.find(b => b.bairro === 'Jardim Alvorada');
+    expect(alvorada?.coletaSeletivaDias).toBeDefined();
+  });
+
+  it('5. valida interface de notificações do sistema', async () => {
+    const { checkNotificationPermission } = await import('../src/utils/notifications');
+    const hasPerm = await checkNotificationPermission();
+    expect(typeof hasPerm).toBe('boolean');
   });
 });

@@ -8,6 +8,11 @@ import { TelefonesView } from './components/TelefonesView';
 import { NoticiasView } from './components/NoticiasView';
 import { CulturaView } from './components/CulturaView';
 import { InstallPwaModal } from './components/InstallPwaModal';
+import { CalculadoraEconomiaModal } from './components/CalculadoraEconomiaModal';
+import { TransporteModal } from './components/TransporteModal';
+import { ColetaLixoModal } from './components/ColetaLixoModal';
+import { CruzDasPossesModal } from './components/CruzDasPossesModal';
+import { NotificationModal } from './components/NotificationModal';
 
 import mercadosData from './data/mercados.json';
 import vagasData from './data/vagas-pat.json';
@@ -25,6 +30,13 @@ export const App: React.FC = () => {
   const [isInstallModalOpen, setIsInstallModalOpen] = useState(false);
   const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
   const [canInstall, setCanInstall] = useState(false);
+
+  // Modais das novas funcionalidades cívicas
+  const [isCalculadoraOpen, setIsCalculadoraOpen] = useState(false);
+  const [isTransporteOpen, setIsTransporteOpen] = useState(false);
+  const [isColetaOpen, setIsColetaOpen] = useState(false);
+  const [isCruzDasPossesOpen, setIsCruzDasPossesOpen] = useState(false);
+  const [isNotificationModalOpen, setIsNotificationModalOpen] = useState(false);
 
   // Escuta evento de instalação de PWA
   useEffect(() => {
@@ -109,6 +121,11 @@ export const App: React.FC = () => {
             telefones={telefonesData as TelefoneUtil[]}
             noticias={noticiasData as NoticiaLocal[]}
             farmacias={farmaciasData as FarmaciaPlantao[]}
+            onOpenTransporte={() => setIsTransporteOpen(true)}
+            onOpenCalculadora={() => setIsCalculadoraOpen(true)}
+            onOpenColeta={() => setIsColetaOpen(true)}
+            onOpenCruzDasPosses={() => setIsCruzDasPossesOpen(true)}
+            onOpenNotificacoes={() => setIsNotificationModalOpen(true)}
           />
         )}
 
@@ -116,6 +133,7 @@ export const App: React.FC = () => {
           <MercadosView
             mercados={mercadosData as ProdutoMercado[]}
             searchQuery={searchQuery}
+            onOpenCalculadora={() => setIsCalculadoraOpen(true)}
           />
         )}
 
@@ -158,12 +176,39 @@ export const App: React.FC = () => {
         vagasCount={vagasData.length}
       />
 
-      {/* Modal de Instalação PWA / Guia */}
+      {/* Modais de Funcionalidades */}
       <InstallPwaModal
         isOpen={isInstallModalOpen}
         onClose={() => setIsInstallModalOpen(false)}
         onInstall={handleInstallClick}
         canInstall={canInstall}
+      />
+
+      <CalculadoraEconomiaModal
+        isOpen={isCalculadoraOpen}
+        onClose={() => setIsCalculadoraOpen(false)}
+        mercados={mercadosData as ProdutoMercado[]}
+      />
+
+      <TransporteModal
+        isOpen={isTransporteOpen}
+        onClose={() => setIsTransporteOpen(false)}
+      />
+
+      <ColetaLixoModal
+        isOpen={isColetaOpen}
+        onClose={() => setIsColetaOpen(false)}
+      />
+
+      <CruzDasPossesModal
+        isOpen={isCruzDasPossesOpen}
+        onClose={() => setIsCruzDasPossesOpen(false)}
+        onOpenTransporte={() => setIsTransporteOpen(true)}
+      />
+
+      <NotificationModal
+        isOpen={isNotificationModalOpen}
+        onClose={() => setIsNotificationModalOpen(false)}
       />
     </div>
   );

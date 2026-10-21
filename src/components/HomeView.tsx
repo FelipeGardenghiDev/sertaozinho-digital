@@ -7,7 +7,13 @@ import {
   ArrowUpRight,
   Sparkles,
   ShieldAlert,
-  Clock
+  Clock,
+  Bus,
+  Calculator,
+  Trash2,
+  Landmark,
+  Bell,
+  Compass
 } from 'lucide-react';
 import { ProdutoMercado, VagaPAT, TelefoneUtil, NoticiaLocal, FarmaciaPlantao } from '../types';
 import { formatCurrency, formatTimeAgo, generatePhoneCallLink } from '../utils/formatters';
@@ -20,6 +26,11 @@ interface HomeViewProps {
   telefones: TelefoneUtil[];
   noticias: NoticiaLocal[];
   farmacias: FarmaciaPlantao[];
+  onOpenTransporte: () => void;
+  onOpenCalculadora: () => void;
+  onOpenColeta: () => void;
+  onOpenCruzDasPosses: () => void;
+  onOpenNotificacoes: () => void;
 }
 
 export const HomeView: React.FC<HomeViewProps> = ({
@@ -29,6 +40,11 @@ export const HomeView: React.FC<HomeViewProps> = ({
   telefones: _telefones,
   noticias,
   farmacias,
+  onOpenTransporte,
+  onOpenCalculadora,
+  onOpenColeta,
+  onOpenCruzDasPosses,
+  onOpenNotificacoes,
 }) => {
   const ofertasDestaque = mercados.filter(m => m.destaque).slice(0, 3);
   const vagasUrgentes = vagas.filter(v => v.vagaUrgente || true).slice(0, 3);
@@ -39,10 +55,22 @@ export const HomeView: React.FC<HomeViewProps> = ({
       {/* Banner de Boas-Vindas & Plantão de Saúde */}
       <section className="bg-gradient-to-r from-emerald-900/60 via-slate-900 to-slate-900 border border-emerald-800/40 rounded-2xl p-4 sm:p-5 relative overflow-hidden shadow-lg">
         <div className="relative z-10 space-y-2">
-          <div className="inline-flex items-center space-x-1.5 bg-emerald-500/20 border border-emerald-500/30 px-2.5 py-0.5 rounded-full text-xs text-emerald-300 font-medium">
-            <Sparkles className="w-3.5 h-3.5 text-emerald-400" />
-            <span>Guia Oficial Comunitário</span>
+          <div className="flex items-center justify-between">
+            <div className="inline-flex items-center space-x-1.5 bg-emerald-500/20 border border-emerald-500/30 px-2.5 py-0.5 rounded-full text-xs text-emerald-300 font-medium">
+              <Sparkles className="w-3.5 h-3.5 text-emerald-400" />
+              <span>Guia Oficial Comunitário</span>
+            </div>
+
+            <button
+              onClick={onOpenNotificacoes}
+              className="inline-flex items-center space-x-1.5 bg-slate-800/90 hover:bg-slate-700 border border-slate-700 px-2.5 py-1 rounded-full text-xs text-slate-200 transition-colors"
+              title="Configurar Notificações"
+            >
+              <Bell className="w-3 h-3 text-emerald-400" />
+              <span className="text-[11px] font-semibold">Alertas</span>
+            </button>
           </div>
+
           <h2 className="text-xl sm:text-2xl font-black text-white tracking-tight">
             Sertãozinho em Tempo Real
           </h2>
@@ -80,6 +108,80 @@ export const HomeView: React.FC<HomeViewProps> = ({
               </div>
             </div>
           )}
+        </div>
+      </section>
+
+      {/* 🚀 Central de Utilidades: Ônibus, Calculadora, Cata-Treco e Cruz das Posses */}
+      <section className="space-y-2">
+        <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 flex items-center space-x-1.5">
+          <Compass className="w-3.5 h-3.5 text-teal-400" />
+          <span>Serviços Essenciais & Mobilidade</span>
+        </h3>
+
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+          {/* Horários de Ônibus */}
+          <button
+            onClick={onOpenTransporte}
+            className="bg-slate-900 border border-slate-800 hover:border-emerald-600/50 p-3 rounded-2xl flex flex-col items-start space-y-1.5 text-left transition-all active:scale-95 group shadow-sm"
+          >
+            <div className="w-8 h-8 rounded-xl bg-blue-500/15 border border-blue-500/30 text-blue-400 flex items-center justify-center group-hover:scale-105 transition-transform">
+              <Bus className="w-4 h-4" />
+            </div>
+            <div>
+              <span className="text-xs font-bold text-white group-hover:text-emerald-300 transition-colors block">
+                Horários de Ônibus
+              </span>
+              <p className="text-[10px] text-slate-400">Sertãozinho ⇄ Ribeirão</p>
+            </div>
+          </button>
+
+          {/* Calculadora Cesta */}
+          <button
+            onClick={onOpenCalculadora}
+            className="bg-slate-900 border border-slate-800 hover:border-emerald-600/50 p-3 rounded-2xl flex flex-col items-start space-y-1.5 text-left transition-all active:scale-95 group shadow-sm"
+          >
+            <div className="w-8 h-8 rounded-xl bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 flex items-center justify-center group-hover:scale-105 transition-transform">
+              <Calculator className="w-4 h-4" />
+            </div>
+            <div>
+              <span className="text-xs font-bold text-white group-hover:text-emerald-300 transition-colors block">
+                Calculadora Cesta
+              </span>
+              <p className="text-[10px] text-slate-400">Onde fica mais barato?</p>
+            </div>
+          </button>
+
+          {/* Coleta & Cata-Treco */}
+          <button
+            onClick={onOpenColeta}
+            className="bg-slate-900 border border-slate-800 hover:border-emerald-600/50 p-3 rounded-2xl flex flex-col items-start space-y-1.5 text-left transition-all active:scale-95 group shadow-sm"
+          >
+            <div className="w-8 h-8 rounded-xl bg-teal-500/15 border border-teal-500/30 text-teal-400 flex items-center justify-center group-hover:scale-105 transition-transform">
+              <Trash2 className="w-4 h-4" />
+            </div>
+            <div>
+              <span className="text-xs font-bold text-white group-hover:text-emerald-300 transition-colors block">
+                Coleta & Cata-Treco
+              </span>
+              <p className="text-[10px] text-slate-400">Dias no seu bairro</p>
+            </div>
+          </button>
+
+          {/* Cruz das Posses */}
+          <button
+            onClick={onOpenCruzDasPosses}
+            className="bg-slate-900 border border-slate-800 hover:border-emerald-600/50 p-3 rounded-2xl flex flex-col items-start space-y-1.5 text-left transition-all active:scale-95 group shadow-sm"
+          >
+            <div className="w-8 h-8 rounded-xl bg-amber-500/15 border border-amber-500/30 text-amber-400 flex items-center justify-center group-hover:scale-105 transition-transform">
+              <Landmark className="w-4 h-4" />
+            </div>
+            <div>
+              <span className="text-xs font-bold text-white group-hover:text-amber-300 transition-colors block">
+                Cruz das Posses
+              </span>
+              <p className="text-[10px] text-slate-400">Distrito & Saúde</p>
+            </div>
+          </button>
         </div>
       </section>
 

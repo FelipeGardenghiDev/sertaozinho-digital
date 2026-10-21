@@ -1,0 +1,137 @@
+{
+  "linhas": [
+    {
+      "id": "onibus-sub-1",
+      "codigoLinha": "SUB-RP",
+      "nomeLinha": "Sertãozinho ⇄ Ribeirão Preto (Rodoviária)",
+      "tipo": "Suburbano (Ribeirão Preto)",
+      "tarifa": 8.50,
+      "itinerarioResumo": "Terminal Rodoviário Sertãozinho ➔ Rod. Attílio Balbo ➔ Av. Castelo Branco ➔ Rodoviária de Ribeirão Preto",
+      "horariosSegundaSexta": [
+        "05:20", "05:50", "06:15", "06:40", "07:10", "07:45", "08:30", "09:30",
+        "10:30", "11:30", "12:15", "13:00", "14:00", "15:00", "16:00", "16:40",
+        "17:15", "17:45", "18:20", "19:00", "20:00", "21:15", "22:30"
+      ],
+      "horariosSabado": [
+        "05:30", "06:30", "07:30", "08:30", "09:30", "10:30", "12:00", "13:30",
+        "15:00", "16:30", "18:00", "19:30", "21:00", "22:30"
+      ],
+      "horariosDomingoFeriado": [
+        "06:30", "08:30", "10:30", "12:30", "14:30", "16:30", "18:30", "20:30", "22:00"
+      ]
+    },
+    {
+      "id": "onibus-sub-2",
+      "codigoLinha": "SUB-USP",
+      "nomeLinha": "Sertãozinho ⇄ Ribeirão Preto (Direto USP / Clínicas)",
+      "tipo": "Suburbano (Ribeirão Preto)",
+      "tarifa": 8.50,
+      "itinerarioResumo": "Terminal Rodoviário Sertãozinho ➔ Anel Viário Norte ➔ Hospital das Clínicas (Campus USP)",
+      "horariosSegundaSexta": [
+        "05:40", "06:20", "06:50", "11:15", "12:20", "16:15", "17:10", "18:15", "21:40"
+      ],
+      "horariosSabado": [
+        "06:00", "12:15", "18:10"
+      ],
+      "horariosDomingoFeriado": [
+        "06:30", "18:00"
+      ]
+    },
+    {
+      "id": "onibus-dist-1",
+      "codigoLinha": "LINHA-CP",
+      "nomeLinha": "Sertãozinho (Terminal) ⇄ Distrito Cruz das Posses",
+      "tipo": "Distrito (Cruz das Posses)",
+      "tarifa": 4.50,
+      "itinerarioResumo": "Terminal Rodoviário ➔ Av. Antônio Paschoal ➔ Estrada Municipal ➔ Praça Central de Cruz das Posses",
+      "horariosSegundaSexta": [
+        "05:30", "06:15", "07:00", "08:15", "10:00", "11:45", "13:15", "15:00", "16:30", "17:30", "18:30", "20:00", "22:15"
+      ],
+      "horariosSabado": [
+        "06:00", "07:30", "09:30", "11:30", "13:30", "15:30", "17:30", "19:30", "22:00"
+      ],
+      "horariosDomingoFeriado": [
+        "07:00", "09:30", "12:00", "15:00", "18:00", "21:00"
+      ]
+    },
+    {
+      "id": "onibus-urb-1",
+      "codigoLinha": "CIRC-01",
+      "nomeLinha": "Circular 1: Cohab 3 / Cohab 8 ⇄ Centro",
+      "tipo": "Circular Urbana (Bairros)",
+      "tarifa": 4.25,
+      "itinerarioResumo": "Terminal ➔ Cohab 1 ➔ Cohab 2 ➔ Cohab 3 ➔ Cohab 8 ➔ Centro ➔ Terminal",
+      "horariosSegundaSexta": [
+        "05:30", "06:10", "06:50", "07:30", "08:10", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "16:40", "17:20", "18:00", "18:40", "19:30", "21:00", "22:15"
+      ],
+      "horariosSabado": [
+        "06:00", "07:00", "08:00", "09:00", "10:30", "12:00", "13:30", "15:00", "17:00", "19:00", "21:00"
+      ],
+      "horariosDomingoFeriado": [
+        "07:00", "09:00", "11:00", "13:00", "15:00", "17:00", "19:00"
+      ]
+    },
+    {
+      "id": "onibus-urb-2",
+      "codigoLinha": "CIRC-02",
+      "nomeLinha": "Circular 2: Jardim Alvorada / Alto do Ginásio ⇄ Centro",
+      "tipo": "Circular Urbana (Bairros)",
+      "tarifa": 4.25,
+      "itinerarioResumo": "Terminal ➔ Rua Barão do Rio Branco ➔ Alto do Ginásio ➔ Jd. Alvorada ➔ UPA ➔ Terminal",
+      "horariosSegundaSexta": [
+        "05:40", "06:20", "07:00", "07:45", "08:45", "10:15", "11:30", "12:30", "13:45", "15:00", "16:15", "17:00", "17:45", "18:30", "19:45", "21:15"
+      ],
+      "horariosSabado": [
+        "06:30", "08:00", "09:30", "11:00", "12:30", "14:00", "16:00", "18:00", "20:00"
+      ],
+      "horariosDomingoFeriado": [
+        "07:30", "09:30", "12:30", "15:30", "18:30"
+      ]
+    }
+  ],
+  "pontos": [
+    {
+      "id": "ponto-1",
+      "nome": "Terminal Rodoviário de Sertãozinho (Central)",
+      "tipo": "Terminal Rodoviário",
+      "endereco": "Av. Antônio Paschoal, 1200 - Centro",
+      "telefone": "(16) 3945-3000",
+      "atendimento24h": true
+    },
+    {
+      "id": "ponto-2",
+      "nome": "Ponto de Táxi da Praça 21 de Abril (Centro)",
+      "tipo": "Ponto de Táxi",
+      "endereco": "Praça 21 de Abril, s/n - Centro",
+      "telefone": "(16) 3942-1010",
+      "whatsapp": "5516997011010",
+      "atendimento24h": true
+    },
+    {
+      "id": "ponto-3",
+      "nome": "Ponto de Táxi Rodoviária",
+      "tipo": "Ponto de Táxi",
+      "endereco": "Terminal Rodoviário Sertãozinho",
+      "telefone": "(16) 3942-3030",
+      "atendimento24h": true
+    },
+    {
+      "id": "ponto-4",
+      "nome": "Moto-Táxi Expresso Sertãozinho",
+      "tipo": "Ponto de Moto-Táxi",
+      "endereco": "Rua Washington Luís, 850 - Centro",
+      "telefone": "(16) 3942-5555",
+      "whatsapp": "5516997885555",
+      "atendimento24h": true
+    },
+    {
+      "id": "ponto-5",
+      "nome": "Moto-Táxi Alvorada / Cohab",
+      "tipo": "Ponto de Moto-Táxi",
+      "endereco": "Av. Afonso Trigo, 710 - Jd. Alvorada",
+      "telefone": "(16) 3945-8888",
+      "whatsapp": "5516996558888",
+      "atendimento24h": true
+    }
+  ]
+}

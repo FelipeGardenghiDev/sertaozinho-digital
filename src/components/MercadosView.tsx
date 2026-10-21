@@ -1,14 +1,15 @@
 import React, { useState, useMemo } from 'react';
-import { ShoppingBag, ArrowUpDown, Filter, ExternalLink, Calendar, CheckCircle } from 'lucide-react';
+import { ShoppingBag, ArrowUpDown, Filter, ExternalLink, Calendar, CheckCircle, Calculator } from 'lucide-react';
 import { ProdutoMercado } from '../types';
 import { formatCurrency, formatShortDate } from '../utils/formatters';
 
 interface MercadosViewProps {
   mercados: ProdutoMercado[];
   searchQuery: string;
+  onOpenCalculadora: () => void;
 }
 
-export const MercadosView: React.FC<MercadosViewProps> = ({ mercados, searchQuery }) => {
+export const MercadosView: React.FC<MercadosViewProps> = ({ mercados, searchQuery, onOpenCalculadora }) => {
   const [selectedMercado, setSelectedMercado] = useState<string>('todos');
   const [selectedCategoria, setSelectedCategoria] = useState<string>('todas');
   const [sortBy, setSortBy] = useState<'menor-preco' | 'maior-desconto'>('menor-preco');
@@ -71,6 +72,25 @@ export const MercadosView: React.FC<MercadosViewProps> = ({ mercados, searchQuer
           </select>
         </div>
       </div>
+
+      {/* Botão Chamada da Calculadora */}
+      <button
+        onClick={onOpenCalculadora}
+        className="w-full bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 hover:from-emerald-500 hover:to-teal-500 text-white font-bold p-3.5 rounded-2xl flex items-center justify-between shadow-lg shadow-emerald-950/60 transition-all active:scale-95 cursor-pointer"
+      >
+        <div className="flex items-center space-x-3">
+          <div className="w-9 h-9 rounded-xl bg-white/15 flex items-center justify-center">
+            <Calculator className="w-5 h-5 text-white" />
+          </div>
+          <div className="text-left">
+            <span className="text-xs sm:text-sm font-black block">Calculadora da Cesta Básica</span>
+            <span className="text-[11px] text-emerald-100 font-medium">Monte sua lista e descubra onde fica mais barato</span>
+          </div>
+        </div>
+        <span className="text-xs bg-emerald-950/60 text-emerald-200 border border-emerald-400/30 px-3 py-1.5 rounded-xl shrink-0 font-bold">
+          Calcular Agora
+        </span>
+      </button>
 
       {/* Filtro por Supermercado */}
       <div className="flex items-center space-x-1.5 overflow-x-auto pb-1 scrollbar-none">
