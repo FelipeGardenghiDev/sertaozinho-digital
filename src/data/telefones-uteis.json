@@ -1,0 +1,147 @@
+[
+  {
+    "id": "tel-1",
+    "nome": "Samu (Emergência Médica)",
+    "categoria": "Emergência",
+    "telefone": "192",
+    "endereco": "Atendimento municipal centralizado",
+    "horario": "24 Horas",
+    "plantao24h": true,
+    "descricao": "Atendimento móvel de urgência e emergência para acidentes e casos graves."
+  },
+  {
+    "id": "tel-2",
+    "nome": "Corpo de Bombeiros Sertãozinho",
+    "categoria": "Emergência",
+    "telefone": "193",
+    "endereco": "Av. Almirante Tamandaré, 450",
+    "horario": "24 Horas",
+    "plantao24h": true,
+    "descricao": "Resgate, combate a incêndios e salvamentos."
+  },
+  {
+    "id": "tel-3",
+    "nome": "Guarda Civil Municipal (GCM)",
+    "categoria": "Emergência",
+    "telefone": "199",
+    "whatsapp": "551639458000",
+    "endereco": "Rua Fioravante Sicchieri, 720",
+    "horario": "24 Horas",
+    "plantao24h": true,
+    "descricao": "Patrulhamento preventivo, proteção ao patrimônio público e trânsito."
+  },
+  {
+    "id": "tel-4",
+    "nome": "Polícia Militar",
+    "categoria": "Emergência",
+    "telefone": "190",
+    "endereco": "43º Batalhão da Polícia Militar",
+    "horario": "24 Horas",
+    "plantao24h": true,
+    "descricao": "Policiamento ostensivo e emergências policiais."
+  },
+  {
+    "id": "tel-5",
+    "nome": "UPA 24 Horas Sertãozinho",
+    "categoria": "Saúde",
+    "telefone": "(16) 3946-9500",
+    "endereco": "Rua Pedro Carleto, 250 - Jd. Grande Aliança",
+    "horario": "24 Horas",
+    "plantao24h": true,
+    "descricao": "Pronto atendimento de urgência para adultos e pediatria."
+  },
+  {
+    "id": "tel-6",
+    "nome": "Hospital Netto Campello / Santa Casa",
+    "categoria": "Saúde",
+    "telefone": "(16) 3946-9200",
+    "endereco": "Rua Epitácio Pessoa, 1401 - Centro",
+    "horario": "24 Horas (Internação e Emergência)",
+    "plantao24h": true,
+    "descricao": "Atendimento hospitalar de referência, cirurgias e maternidade."
+  },
+  {
+    "id": "tel-7",
+    "nome": "Saae (Água e Esgoto de Sertãozinho)",
+    "categoria": "Serviços Públicos",
+    "telefone": "0800-771-1195",
+    "whatsapp": "5516991234567",
+    "endereco": "Rua Jordão Borghetti, 250",
+    "horario": "Plantão de vazamentos 24h",
+    "plantao24h": true,
+    "descricao": "Comunicação de falta d'água, vazamentos na rua e religação."
+  },
+  {
+    "id": "tel-8",
+    "nome": "CPFL Paulista (Energia Elétrica)",
+    "categoria": "Serviços Públicos",
+    "telefone": "0800-010-1010",
+    "whatsapp": "5519999088888",
+    "endereco": "Posto Poupatempo Sertãozinho",
+    "horario": "24 Horas para emergências na rede",
+    "plantao24h": true,
+    "descricao": "Falta de energia, cabos caídos e risco elétrico."
+  },
+  {
+    "id": "tel-9",
+    "nome": "Prefeitura Municipal de Sertãozinho",
+    "categoria": "Serviços Públicos",
+    "telefone": "(16) 3946-7800",
+    "endereco": "Rua Aprígio de Araújo, 824 - Centro",
+    "horario": "Segunda a Sexta, das 08h30 às 17h",
+    "plantao24h": false,
+    "descricao": "Central de atendimento ao cidadão e secretarias municipais."
+  },
+  {
+    "id": "tel-10",
+    "nome": "Banco do Brasil - Agência Central",
+    "categoria": "Bancos",
+    "telefone": "(16) 3946-3000",
+    "endereco": "Rua Barão do Rio Branco, 1145 - Centro",
+    "horario": "10h às 15h (Autoatendimento até 22h)",
+    "plantao24h": false,
+    "descricao": "Agência 0184 Sertãozinho."
+  },
+  {
+    "id": "tel-11",
+    "nome": "Caixa Econômica Federal",
+    "categoria": "Bancos",
+    "telefone": "(16) 3946-8100",
+    "endereco": "Rua Washington Luís, 1020 - Centro",
+    "horario": "10h às 15h (Autoatendimento até 22h)",
+    "plantao24h": false,
+    "descricao": "FGTS, PIS, Bolsa Família e financiamento imobiliário."
+  },
+  {
+    "id": "tel-12",
+    "nome": "Sicoob Coocrecig Sertãozinho",
+    "categoria": "Bancos",
+    "telefone": "(16) 3946-4400",
+    "endereco": "Rua Barão do Rio Branco, 1420 - Centro",
+    "horario": "09h às 15h",
+    "plantao24h": false,
+    "descricao": "Cooperativa de crédito com atendimento aos produtores e comércio."
+  },
+  {
+    "id": "tel-13",
+    "nome": "SOS Chaveiro 24h Sertãozinho",
+    "categoria": "SOS & Chaveiros 24h",
+    "telefone": "(16) 99765-4321",
+    "whatsapp": "5516997654321",
+    "endereco": "Atendimento móvel em todos os bairros",
+    "horario": "24 Horas",
+    "plantao24h": true,
+    "descricao": "Abertura residencial, cópias de chave codificada e destravamento automotivo."
+  },
+  {
+    "id": "tel-14",
+    "nome": "Guincho & Auto Socorro Sertãozinho",
+    "categoria": "SOS & Chaveiros 24h",
+    "telefone": "(16) 99123-9999",
+    "whatsapp": "5516991239999",
+    "endereco": "Base Anel Viário / Rod. Attílio Balbo",
+    "horario": "24 Horas",
+    "plantao24h": true,
+    "descricao": "Socorro mecânico, troca de pneus, carga de bateria e reboque."
+  }
+]

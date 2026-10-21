@@ -1,0 +1,74 @@
+[
+  {
+    "id": "pat-1",
+    "cargo": "Soldador TIG / MIG",
+    "quantidade": 6,
+    "setor": "Metalurgia / Indústria",
+    "escolaridade": "Ensino Médio Completo",
+    "experienciaMinima": "6 meses comprovados em carteira",
+    "salarioOuBeneficios": "R$ 3.200,00 + Convênio + Cesta Básica + VT",
+    "dataPublicacao": "2026-10-21",
+    "comoCandidatar": "Comparecer ao PAT (Poupatempo Sertãozinho) ou enviar CV para pat.sertaozinho@sp.gov.br com a sigla SOLD-TIG",
+    "vagaUrgente": true
+  },
+  {
+    "id": "pat-2",
+    "cargo": "Operador de Caldeira Industrial",
+    "quantidade": 3,
+    "setor": "Metalurgia / Indústria",
+    "escolaridade": "Ensino Médio + Certificado NR-13",
+    "experienciaMinima": "1 ano na área sucroalcooleira",
+    "salarioOuBeneficios": "R$ 3.850,00 + Adicional Noturno + PPR",
+    "dataPublicacao": "2026-10-21",
+    "comoCandidatar": "Candidatura presencial no PAT das 08h às 16h com RG, CPF e Carteira de Trabalho",
+    "vagaUrgente": false
+  },
+  {
+    "id": "pat-3",
+    "cargo": "Auxiliar de Almoxarifado / Estoquista",
+    "quantidade": 4,
+    "setor": "Logística",
+    "escolaridade": "Ensino Médio Completo",
+    "experienciaMinima": "Não exigida (desejável CNH B)",
+    "salarioOuBeneficios": "R$ 1.980,00 + Vale Refeição + Cesta Básica",
+    "dataPublicacao": "2026-10-20",
+    "comoCandidatar": "Enviar currículo pelo aplicativo Emprega Brasil ou via PAT Sertãozinho",
+    "vagaUrgente": false
+  },
+  {
+    "id": "pat-4",
+    "cargo": "Vendedor(a) Interno / Balcão",
+    "quantidade": 2,
+    "setor": "Comércio & Vendas",
+    "escolaridade": "Ensino Médio Completo",
+    "experienciaMinima": "6 meses em atendimento ao cliente",
+    "salarioOuBeneficios": "R$ 1.850,00 + Comissão sobre vendas",
+    "dataPublicacao": "2026-10-21",
+    "comoCandidatar": "Encaminhar currículo com foto para vagas.comercio@sertaozinho.sp.gov.br",
+    "vagaUrgente": true
+  },
+  {
+    "id": "pat-5",
+    "cargo": "Eletricista de Manutenção Industrial",
+    "quantidade": 2,
+    "setor": "Metalurgia / Indústria",
+    "escolaridade": "Técnico em Eletrotécnica / NR-10",
+    "experienciaMinima": "1 ano",
+    "salarioOuBeneficios": "R$ 4.100,00 + Periculosidade + Plano Médico",
+    "dataPublicacao": "2026-10-20",
+    "comoCandidatar": "Apresentar-se no PAT Sertãozinho com certificados técnicos",
+    "vagaUrgente": false
+  },
+  {
+    "id": "pat-6",
+    "cargo": "Auxiliar de Limpeza e Conservação",
+    "quantidade": 5,
+    "setor": "Serviços Gerais",
+    "escolaridade": "Ensino Fundamental",
+    "experienciaMinima": "Não exigida",
+    "salarioOuBeneficios": "R$ 1.720,00 + VT + Vale Alimentação",
+    "dataPublicacao": "2026-10-19",
+    "comoCandidatar": "Retirar carta de encaminhamento no PAT munido de documentos",
+    "vagaUrgente": false
+  }
+]

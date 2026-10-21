@@ -1,0 +1,42 @@
+[
+  {
+    "id": "not-2",
+    "titulo": "Saae conclui manutenção preventiva no reservatório da Cohab 3 e normaliza abastecimento",
+    "resumo": "Intervenção rápida substituiu registros de alta pressão para garantir pressão constante no período de temperaturas elevadas.",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://sertaozinho.sp.gov.br",
+    "categoria": "Cidade",
+    "data": "2026-10-21T14:15:00Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-1",
+    "titulo": "Sertãozinho abre novas vagas para cursos profissionalizantes gratuitos de solda e usinagem",
+    "resumo": "Inscrições podem ser realizadas no Centro Comunitário ou pelo portal oficial. Parceria com SENAI visa atender o polo metalúrgico da cidade.",
+    "fonte": "Jornal Agora Sertãozinho",
+    "url": "https://agorasertaozinho.com.br",
+    "categoria": "Economia",
+    "data": "2026-10-21T09:30:00Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-3",
+    "titulo": "Feira Livre da Praça 21 de Abril terá edição especial com produtores rurais e música ao vivo",
+    "resumo": "Evento acontece neste domingo a partir das 07h30 com pastéis tradicionais, artesanato e apresentação de duplas sertanejas locais.",
+    "fonte": "Notícias de Sertãozinho",
+    "url": "https://noticiasdesertaozinho.com.br",
+    "categoria": "Cultura",
+    "data": "2026-10-20T18:00:00Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-4",
+    "titulo": "Campanha de vacinação antirrábica para cães e gatos percorre bairros da zona norte no sábado",
+    "resumo": "Postos volantes serão montados em praças e escolas dos bairros Alto do Ginásio, Jardim Alvorada e São João.",
+    "fonte": "Secretaria Municipal de Saúde",
+    "url": "https://sertaozinho.sp.gov.br",
+    "categoria": "Saúde",
+    "data": "2026-10-20T11:45:00Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800&auto=format&fit=crop&q=80"
+  }
+]

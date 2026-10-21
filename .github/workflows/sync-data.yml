@@ -1,0 +1,40 @@
+name: Sync Diário de Dados (Scrapers)
+
+on:
+  schedule:
+    # Roda diariamente às 06:00 e 15:00 UTC (03:00 e 12:00 horário de Brasília)
+    - cron: '0 6,15 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Instalar Dependências
+        run: npm ci
+
+      - name: Executar Scrapers
+        run: npm run scrape
+
+      - name: Commit e Push se houver novos dados
+        run: |
+          git config --global user.name "Sertaozinho Bot"
+          git config --global user.email "bot@sertaozinhodigital.org"
+          git add src/data/*.json
+          if git diff --staged --quiet; then
+            echo "Nenhuma alteração de dados encontrada."
+          else
+            git commit -m "chore(data): sincronização automática diária de ofertas e notícias"
+            git push
+          fi

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "art-1",
+    "nome": "Zé Carlos & Viola",
+    "estilo": "Sertanejo & Raiz",
+    "bio": "Duo tradicional de Sertãozinho resgatando clássicos do sertanejo raiz e moda de viola há mais de 15 anos nos palcos da região.",
+    "instagram": "https://instagram.com",
+    "spotify": "https://spotify.com",
+    "youtube": "https://youtube.com",
+    "whatsappContato": "5516998877665",
+    "proximosShows": [
+      {
+        "data": "24/10/2026 (Sexta)",
+        "local": "Bar do Zé - Centro",
+        "horario": "20h30"
+      },
+      {
+        "data": "26/10/2026 (Domingo)",
+        "local": "Feira da Praça 21 de Abril",
+        "horario": "10h00"
+      }
+    ]
+  },
+  {
+    "id": "art-2",
+    "nome": "Banda Engenho Velho",
+    "estilo": "Rock & Pop",
+    "bio": "Banda sertanezina de Pop Rock nacional dos anos 80, 90 e 2000, com tributos a Legião Urbana, Capital Inicial e Skank.",
+    "instagram": "https://instagram.com",
+    "youtube": "https://youtube.com",
+    "whatsappContato": "5516997766554",
+    "proximosShows": [
+      {
+        "data": "25/10/2026 (Sábado)",
+        "local": "Cervejaria Artesanal Canavial",
+        "horario": "21h00"
+      }
+    ]
+  },
+  {
+    "id": "art-3",
+    "nome": "Grupo Puro Swing",
+    "estilo": "Pagode & Samba",
+    "bio": "Pagode moderno e samba de raiz animando os fins de semana com muito ritmo, pandeiro e energia boa para eventos e confraternizações.",
+    "instagram": "https://instagram.com",
+    "whatsappContato": "5516996655443",
+    "proximosShows": [
+      {
+        "data": "26/10/2026 (Domingo)",
+        "local": "Tardezinha na Chácara das Palmeiras",
+        "horario": "16h00"
+      }
+    ]
+  },
+  {
+    "id": "art-4",
+    "nome": "DJ Lucas Melo",
+    "estilo": "Eletrônica & DJ",
+    "bio": "DJ e produtor musical com sets dinâmicos de Open Format, House e Funk Chic para formaturas, casamentos e baladas de Sertãozinho e Ribeirão Preto.",
+    "instagram": "https://instagram.com",
+    "spotify": "https://spotify.com",
+    "whatsappContato": "5516995544332",
+    "proximosShows": [
+      {
+        "data": "24/10/2026 (Sexta)",
+        "local": "Clube de Campo Sertãozinho",
+        "horario": "23h00"
+      }
+    ]
+  }
+]

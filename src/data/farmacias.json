@@ -1,0 +1,39 @@
+[
+  {
+    "id": "farm-1",
+    "farmacia": "Drogaria São Paulo (24h)",
+    "endereco": "Rua Barão do Rio Branco, 950 - Centro",
+    "telefone": "(16) 3942-5000",
+    "whatsapp": "5516997112233",
+    "bairro": "Centro",
+    "horario": "Aberto 24 Horas",
+    "hojePlantao": true
+  },
+  {
+    "id": "farm-2",
+    "farmacia": "Droga Raia - Centro",
+    "endereco": "Rua Washington Luís, 1120 - Centro",
+    "telefone": "(16) 3942-8800",
+    "bairro": "Centro",
+    "horario": "07h00 às 23h00",
+    "hojePlantao": false
+  },
+  {
+    "id": "farm-3",
+    "farmacia": "Farmácia Popular Alvorada",
+    "endereco": "Av. Afonso Trigo, 540 - Jd. Alvorada",
+    "telefone": "(16) 3945-1290",
+    "bairro": "Jardim Alvorada",
+    "horario": "Plantão Noturno até 00h00",
+    "hojePlantao": true
+  },
+  {
+    "id": "farm-4",
+    "farmacia": "Drogaria Total Cohab 3",
+    "endereco": "Rua Antônio Carotini, 310 - Cohab 3",
+    "telefone": "(16) 3947-6644",
+    "bairro": "Cohab 3",
+    "horario": "07h30 às 22h00",
+    "hojePlantao": false
+  }
+]
