@@ -13,6 +13,8 @@ import { TransporteModal } from './components/TransporteModal';
 import { ColetaLixoModal } from './components/ColetaLixoModal';
 import { CruzDasPossesModal } from './components/CruzDasPossesModal';
 import { NotificationModal } from './components/NotificationModal';
+import { MapaCivicoModal } from './components/MapaCivicoModal';
+import { ColaboracaoModal } from './components/ColaboracaoModal';
 
 import mercadosData from './data/mercados.json';
 import vagasData from './data/vagas-pat.json';
@@ -37,6 +39,8 @@ export const App: React.FC = () => {
   const [isColetaOpen, setIsColetaOpen] = useState(false);
   const [isCruzDasPossesOpen, setIsCruzDasPossesOpen] = useState(false);
   const [isNotificationModalOpen, setIsNotificationModalOpen] = useState(false);
+  const [isMapaCivicoOpen, setIsMapaCivicoOpen] = useState(false);
+  const [isColaboracaoOpen, setIsColaboracaoOpen] = useState(false);
 
   // Escuta evento de instalação de PWA
   useEffect(() => {
@@ -126,6 +130,8 @@ export const App: React.FC = () => {
             onOpenColeta={() => setIsColetaOpen(true)}
             onOpenCruzDasPosses={() => setIsCruzDasPossesOpen(true)}
             onOpenNotificacoes={() => setIsNotificationModalOpen(true)}
+            onOpenMapaCivico={() => setIsMapaCivicoOpen(true)}
+            onOpenColaboracao={() => setIsColaboracaoOpen(true)}
           />
         )}
 
@@ -209,6 +215,16 @@ export const App: React.FC = () => {
       <NotificationModal
         isOpen={isNotificationModalOpen}
         onClose={() => setIsNotificationModalOpen(false)}
+      />
+
+      <MapaCivicoModal
+        isOpen={isMapaCivicoOpen}
+        onClose={() => setIsMapaCivicoOpen(false)}
+      />
+
+      <ColaboracaoModal
+        isOpen={isColaboracaoOpen}
+        onClose={() => setIsColaboracaoOpen(false)}
       />
     </div>
   );

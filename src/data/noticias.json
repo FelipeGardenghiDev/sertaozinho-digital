@@ -1,5 +1,65 @@
 [
   {
+    "id": "not-stz-1793210331976-1",
+    "titulo": "SECRETARIA DE OBRAS REALIZA SERVIÇOS DE ZELADORIA",
+    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Obras, Conservação e Serviços Públicos, está realizando serviços de zeladoria, manutenção e melhorias em unidades escolares da rede municipal,...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13237/secretaria-de-obras-realiza-servicos-de-zeladoria-e-melhorias-em-escolas-municipais-de-sertaozinho",
+    "categoria": "Cidade",
+    "data": "2026-10-28T17:58:51.976Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1793210331976-2",
+    "titulo": "COMUNICADO",
+    "resumo": "A Secretaria Municipal de Educação informa que, devido à realização de serviços de desinsetização, o expediente da sede da Secretaria será encerrado excepcionalmente às 12h nesta quinta-feira, dia 29. As atividades serão...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13236/comunicado",
+    "categoria": "Cultura",
+    "data": "2026-10-28T17:58:51.976Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1793210331976-3",
+    "titulo": "SERTÃOZINHO PROMOVE MISSÃO EMPRESARIAL À FEIRA DO",
+    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Desenvolvimento Econômico e Inovação, promoveu uma missão empresarial à Feira do Empreendedor, realizada no último dia 22, em São Paulo. A...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13235/sertaozinho-promove-missao-empresarial-a-feira-do-empreendedor-em-sao-paulo",
+    "categoria": "Cultura",
+    "data": "2026-10-28T17:58:51.976Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1793210331976-4",
+    "titulo": "SECRETARIA DE ADMINISTRAÇÃO REALIZA TERCEIRO",
+    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria Municipal de Administração, realizou na última sexta-feira, dia 23, o terceiro módulo do 1º Ciclo de Formação da Educação Permanente em Serviço...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13234/secretaria-de-administracao-realiza-terceiro-modulo-de-formacao-em-servico-social-e-anuncia-modulo-adicional-para-novembro",
+    "categoria": "Cultura",
+    "data": "2026-10-28T17:58:51.976Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1793210331976-5",
+    "titulo": "ATLETA DE SERTÃOZINHO É CONVOCADO PARA A SELEÇÃO",
+    "resumo": "O atleta sertanezino Gabriel Miranda Santos Ribeiro foi convocado para integrar a seleção brasileira de atletismo que disputará o 28º Campeonato Sul-Americano Sub-18, de 11 a 13 de dezembro, em Cuenca, no Equador. A convocação...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13233/atleta-de-sertaozinho-e-convocado-para-a-selecao-brasileira-de-atletismo-sub-18",
+    "categoria": "Cidade",
+    "data": "2026-10-28T17:58:51.976Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1793210331953-0",
+    "titulo": "CENTRO ESPORTIVO MOGIANA RECEBE EVENTO DE ADOÇÃO",
+    "resumo": "Neste sábado, dia 31 de outubro, o Governo Municipal da Estância Turística de Sertãozinho promove mais uma edição do evento de adoção pet, uma oportunidade para quem deseja abrir as portas de casa e do coração para um novo amigo....",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13238/centro-esportivo-mogiana-recebe-evento-de-adocao-pet-neste-sabado-dia-31",
+    "categoria": "Cidade",
+    "data": "2026-10-28T17:58:51.954Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
+  },
+  {
     "id": "not-2",
     "titulo": "Saae conclui manutenção preventiva no reservatório da Cohab 3 e normaliza abastecimento",
     "resumo": "Intervenção rápida substituiu registros de alta pressão para garantir pressão constante no período de temperaturas elevadas.",
@@ -28,15 +88,5 @@
     "categoria": "Cultura",
     "data": "2026-10-20T18:00:00Z",
     "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-4",
-    "titulo": "Campanha de vacinação antirrábica para cães e gatos percorre bairros da zona norte no sábado",
-    "resumo": "Postos volantes serão montados em praças e escolas dos bairros Alto do Ginásio, Jardim Alvorada e São João.",
-    "fonte": "Secretaria Municipal de Saúde",
-    "url": "https://sertaozinho.sp.gov.br",
-    "categoria": "Saúde",
-    "data": "2026-10-20T11:45:00Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800&auto=format&fit=crop&q=80"
   }
 ]

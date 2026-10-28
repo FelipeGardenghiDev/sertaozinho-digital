@@ -1,4 +1,4 @@
-name: CI & Deploy Sertãozinho Digital
+name: CI & CD (Web Deploy & Android APK)
 
 on:
   push:
@@ -13,11 +13,12 @@ permissions:
   id-token: write
 
 concurrency:
-  group: 'pages'
+  group: 'pages-and-apk'
   cancel-in-progress: false
 
 jobs:
   build-and-test:
+    name: Validar, Testar e Compilar Web
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repositório
@@ -38,7 +39,7 @@ jobs:
       - name: Executar Testes Unitários (Vitest)
         run: npm run test
 
-      - name: Build de Produção
+      - name: Build de Produção (Vite + PWA)
         run: npm run build
 
       - name: Verificar Sincronização Android Capacitor
@@ -51,6 +52,7 @@ jobs:
           path: 'dist'
 
   deploy-pages:
+    name: Deploy no GitHub Pages
     if: github.ref == 'refs/heads/main'
     needs: build-and-test
     runs-on: ubuntu-latest
@@ -61,3 +63,49 @@ jobs:
       - name: Deploy para GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  build-apk:
+    name: Compilar APK Nativo Android (Capacitor)
+    if: github.ref == 'refs/heads/main'
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repositório
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Setup Java JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: 21
+
+      - name: Instalar Dependências
+        run: npm ci
+
+      - name: Build Web Assets (Vite)
+        run: npm run build
+
+      - name: Sincronizar Capacitor Android
+        run: |
+          npx cap add android || true
+          npx cap sync android
+
+      - name: Compilar Debug APK com Gradle
+        run: |
+          cd android
+          chmod +x gradlew
+          ./gradlew assembleDebug --stacktrace
+
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sertaozinho-digital-debug-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 30

@@ -8,6 +8,7 @@ import artistasData from '../src/data/artistas.json';
 import onibusData from '../src/data/onibus.json';
 import coletaData from '../src/data/coleta-lixo.json';
 import cpData from '../src/data/cruz-das-posses.json';
+import pontosData from '../src/data/pontos-interesse.json';
 
 describe('Sertãozinho Digital - Utilitários de Formatação', () => {
   it('formata valores monetários em Real (BRL) corretamente', () => {
@@ -146,5 +147,34 @@ describe('Sertãozinho Digital - Novas Funcionalidades (5 Melhorias)', () => {
     const { checkNotificationPermission } = await import('../src/utils/notifications');
     const hasPerm = await checkNotificationPermission();
     expect(typeof hasPerm).toBe('boolean');
+  });
+
+  it('6. valida pontos cívicos de interesse para o Mapa Cívico (UPAs, Ecopontos e Farmácias)', () => {
+    expect(pontosData.length).toBeGreaterThanOrEqual(10);
+    pontosData.forEach((poi) => {
+      expect(poi.id).toBeDefined();
+      expect(poi.nome.length).toBeGreaterThan(3);
+      expect(poi.endereco.length).toBeGreaterThan(5);
+      expect(poi.linkGoogleMaps).toMatch(/^https?:\/\//);
+      expect(typeof poi.latitude).toBe('number');
+      expect(typeof poi.longitude).toBe('number');
+      expect(['Saúde & SOS', 'Ecoponto de Entulho', 'Transporte', 'Farmácia de Plantão', 'Cultura & Lazer']).toContain(poi.categoria);
+    });
+
+    const upa = pontosData.find(p => p.nome.includes('UPA'));
+    expect(upa).toBeDefined();
+
+    const ecoponto = pontosData.find(p => p.categoria === 'Ecoponto de Entulho');
+    expect(ecoponto).toBeDefined();
+  });
+
+  it('7. valida notícias dinâmicas e agregação da Prefeitura de Sertãozinho', () => {
+    expect(noticiasData.length).toBeGreaterThan(0);
+    const noticiasPrefeitura = noticiasData.filter(n => n.fonte === 'Prefeitura de Sertãozinho');
+    expect(noticiasPrefeitura.length).toBeGreaterThan(0);
+    noticiasPrefeitura.forEach((noticia) => {
+      expect(noticia.titulo.length).toBeGreaterThan(5);
+      expect(noticia.url).toContain('sertaozinho.sp.gov.br');
+    });
   });
 });

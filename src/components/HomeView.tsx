@@ -13,7 +13,9 @@ import {
   Trash2,
   Landmark,
   Bell,
-  Compass
+  Compass,
+  MapPin,
+  HeartHandshake
 } from 'lucide-react';
 import { ProdutoMercado, VagaPAT, TelefoneUtil, NoticiaLocal, FarmaciaPlantao } from '../types';
 import { formatCurrency, formatTimeAgo, generatePhoneCallLink } from '../utils/formatters';
@@ -31,6 +33,8 @@ interface HomeViewProps {
   onOpenColeta: () => void;
   onOpenCruzDasPosses: () => void;
   onOpenNotificacoes: () => void;
+  onOpenMapaCivico: () => void;
+  onOpenColaboracao: () => void;
 }
 
 export const HomeView: React.FC<HomeViewProps> = ({
@@ -45,6 +49,8 @@ export const HomeView: React.FC<HomeViewProps> = ({
   onOpenColeta,
   onOpenCruzDasPosses,
   onOpenNotificacoes,
+  onOpenMapaCivico,
+  onOpenColaboracao,
 }) => {
   const ofertasDestaque = mercados.filter(m => m.destaque).slice(0, 3);
   const vagasUrgentes = vagas.filter(v => v.vagaUrgente || true).slice(0, 3);
@@ -61,14 +67,25 @@ export const HomeView: React.FC<HomeViewProps> = ({
               <span>Guia Oficial Comunitário</span>
             </div>
 
-            <button
-              onClick={onOpenNotificacoes}
-              className="inline-flex items-center space-x-1.5 bg-slate-800/90 hover:bg-slate-700 border border-slate-700 px-2.5 py-1 rounded-full text-xs text-slate-200 transition-colors"
-              title="Configurar Notificações"
-            >
-              <Bell className="w-3 h-3 text-emerald-400" />
-              <span className="text-[11px] font-semibold">Alertas</span>
-            </button>
+            <div className="flex items-center space-x-1.5">
+              <button
+                onClick={onOpenColaboracao}
+                className="inline-flex items-center space-x-1.5 bg-emerald-600 hover:bg-emerald-500 border border-emerald-500 px-2.5 py-1 rounded-full text-xs text-white transition-colors cursor-pointer shadow-sm active:scale-95"
+                title="Colabore com ofertas, shows e vagas"
+              >
+                <HeartHandshake className="w-3.5 h-3.5 text-white" />
+                <span className="text-[11px] font-bold">Colabore</span>
+              </button>
+
+              <button
+                onClick={onOpenNotificacoes}
+                className="inline-flex items-center space-x-1.5 bg-slate-800/90 hover:bg-slate-700 border border-slate-700 px-2.5 py-1 rounded-full text-xs text-slate-200 transition-colors cursor-pointer"
+                title="Configurar Notificações"
+              >
+                <Bell className="w-3 h-3 text-emerald-400" />
+                <span className="text-[11px] font-semibold">Alertas</span>
+              </button>
+            </div>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-black text-white tracking-tight">
@@ -118,7 +135,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
           <span>Serviços Essenciais & Mobilidade</span>
         </h3>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
           {/* Horários de Ônibus */}
           <button
             onClick={onOpenTransporte}
@@ -180,6 +197,38 @@ export const HomeView: React.FC<HomeViewProps> = ({
                 Cruz das Posses
               </span>
               <p className="text-[10px] text-slate-400">Distrito & Saúde</p>
+            </div>
+          </button>
+
+          {/* Mapa Cívico GPS */}
+          <button
+            onClick={onOpenMapaCivico}
+            className="bg-slate-900 border border-slate-800 hover:border-emerald-600/50 p-3 rounded-2xl flex flex-col items-start space-y-1.5 text-left transition-all active:scale-95 group shadow-sm"
+          >
+            <div className="w-8 h-8 rounded-xl bg-purple-500/15 border border-purple-500/30 text-purple-400 flex items-center justify-center group-hover:scale-105 transition-transform">
+              <MapPin className="w-4 h-4" />
+            </div>
+            <div>
+              <span className="text-xs font-bold text-white group-hover:text-purple-300 transition-colors block">
+                Mapa Cívico GPS
+              </span>
+              <p className="text-[10px] text-slate-400">UPAs, Ecopontos e Farmácias</p>
+            </div>
+          </button>
+
+          {/* Canal Cidadão / Colabore */}
+          <button
+            onClick={onOpenColaboracao}
+            className="bg-slate-900 border border-slate-800 hover:border-emerald-600/50 p-3 rounded-2xl flex flex-col items-start space-y-1.5 text-left transition-all active:scale-95 group shadow-sm"
+          >
+            <div className="w-8 h-8 rounded-xl bg-rose-500/15 border border-rose-500/30 text-rose-400 flex items-center justify-center group-hover:scale-105 transition-transform">
+              <HeartHandshake className="w-4 h-4" />
+            </div>
+            <div>
+              <span className="text-xs font-bold text-white group-hover:text-rose-300 transition-colors block">
+                Canal Colabore
+              </span>
+              <p className="text-[10px] text-slate-400">Envie ofertas, vagas e shows</p>
             </div>
           </button>
         </div>

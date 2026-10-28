@@ -1,12 +1,14 @@
 # 🌿 Sertãozinho Digital
 
-> **Portal Cívico Vivo & Guia de Utilidade Pública de Sertãozinho/SP**, com comparador de preços e ofertas de supermercados em tempo real, vagas de emprego do PAT, discagem rápida de emergências (SOS), radar de notícias locais e catálogo de artistas e músicos independentes.
+> **Portal Cívico Vivo & Guia de Utilidade Pública de Sertãozinho/SP**, com comparador de preços e ofertas de supermercados em tempo real, vagas de emprego do PAT, mapa interativo de Ecopontos e UPAs no GPS, discagem rápida de emergências (SOS), canal de colaboração comunitária, radar de notícias locais e catálogo de artistas e músicos independentes.
 
-[![CI & Deploy](https://github.com/FelipeGardenghiDev/sertaozinho-digital/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeGardenghiDev/sertaozinho-digital/actions/workflows/ci.yml)
+[![CI & CD (Pages & APK)](https://github.com/FelipeGardenghiDev/sertaozinho-digital/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeGardenghiDev/sertaozinho-digital/actions/workflows/ci.yml)
 [![PWA Ready](https://img.shields.io/badge/PWA-Installable%20%26%20Offline-blueviolet?logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
+[![Capacitor Android](https://img.shields.io/badge/Capacitor-Android%20.APK-3880FF?logo=capacitor)](https://capacitorjs.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-6.0+-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind-4.0-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Vitest Tests](https://img.shields.io/badge/Vitest-17%20Passing-brightgreen?logo=vitest)](https://vitest.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald)](LICENSE)
 
 🌐 **Acesso Web (Produção):** [https://felipegardenghidev.github.io/sertaozinho-digital/](https://felipegardenghidev.github.io/sertaozinho-digital/)
@@ -19,9 +21,10 @@ Em cidades dinâmicas do interior paulista como **Sertãozinho/SP** (capital bra
 * As ofertas de mercados estão em encartes de papel ou posts efêmeros em redes sociais;
 * As vagas de emprego do PAT exigem garimpar PDFs institucionais;
 * Telefones de emergência, plantão de água (Saae), farmácias de plantão e serviços essenciais não possuem um canal unificado e rápido;
-* Músicos, bandas locais e eventos culturais disputam espaço contra algoritmos fechados.
+* Músicos, bandas locais e eventos culturais disputam espaço contra algoritmos fechados;
+* Moradores têm dúvidas sobre onde descartar entulhos nos Ecopontos e os dias de Cata-Treco nos bairros.
 
-O **Sertãozinho Digital** centraliza tudo isso em uma **Progressive Web App (PWA) ultrarrápida, gratuita, open-source e com custo de hospedagem R$ 0,00**, que pode ser instalada diretamente no celular ou empacotada como APK para a Google Play Store.
+O **Sertãozinho Digital** centraliza tudo isso em uma **Progressive Web App (PWA) ultrarrápida, gratuita, open-source e com custo de hospedagem R$ 0,00**, que pode ser instalada diretamente no celular ou empacotada como APK nativo Android via Capacitor.
 
 ---
 
@@ -34,7 +37,7 @@ flowchart TD
     subgraph M1 ["🛒 Economia & Mercados"]
         M1A["Ofertas da Cesta Básica"]
         M1B["Savegnago, Gricki, Copercana, Paulistão"]
-        M1C["Comparador de Menor Preço e % de Economia"]
+        M1C["Calculadora de Menor Preço e % de Economia"]
     end
 
     subgraph M2 ["💼 Vagas de Emprego (PAT)"]
@@ -43,21 +46,22 @@ flowchart TD
         M2C["Orientações e Envio de Currículo"]
     end
 
-    subgraph M3 ["🚨 Guia de Utilidade & SOS 24h"]
-        M3A["Discagem de 1 Toque (Samu 192, Bombeiros 193, GCM 199)"]
-        M3B["Saae Água, CPFL Energia e Bancos"]
-        M3C["Farmácia de Plantão Hoje & Chaveiros 24h via WhatsApp"]
+    subgraph M3 ["🗺️ Mapa Cívico & Mobilidade"]
+        M3A["Ecopontos de Entulho no GPS"]
+        M3B["Horários de Ônibus (Ribeirão e Bairros)"]
+        M3C["UPAs, Santa Casa e Farmácias 24h"]
     end
 
-    subgraph M4 ["📰 Notícias & Informação"]
-        M4A["Manchetes dos Portais Locais"]
-        M4B["Comunicados Oficiais da Cidade"]
+    subgraph M4 ["🚨 Guia de Utilidade & SOS"]
+        M4A["Discagem de 1 Toque (Samu 192, Bombeiros 193, GCM 199)"]
+        M4B["Saae Água, CPFL Energia e Bancos"]
+        M4C["Coleta de Lixo & Cata-Treco por Bairro"]
     end
 
-    subgraph M5 ["🎸 Radar Cultural & Artistas"]
-        M5A["Músicos e Bandas de Sertãozinho"]
-        M5B["Agenda de Shows nos Bares e Praça"]
-        M5C["Links Spotify, Instagram e Contratações"]
+    subgraph M5 ["🤝 Canal Colabore & Cultura"]
+        M5A["Envio de Ofertas e Shows Comunitários"]
+        M5B["Radar de Músicos e Bandas da Cidade"]
+        M5C["Distrito de Cruz das Posses"]
     end
 
     App --> M1
@@ -72,42 +76,25 @@ flowchart TD
 ## ⚡ Engenharia de Dados & Custo R$ 0,00
 
 O projeto adota a arquitetura **Jamstack / Flat-File no Git**:
-1. **Zero Banco de Dados SQL:** Os dados são estruturados em arquivos JSON versionados em `src/data/` (`mercados.json`, `vagas-pat.json`, `telefones-uteis.json`, `noticias.json`, `artistas.json`).
-2. **Atualização Automatizada via GitHub Actions:** Rotinas cron periódicas raspam e sincronizam os dados públicos sem necessidade de servidores backend dedicados.
-3. **Imunidade a Quedas e Ataques:** A entrega é feita como site estático servido via CDN global (GitHub Pages / Cloudflare Pages), blindada contra ataques DDoS e sem vulnerabilidades de injeção de SQL.
+1. **Zero Banco de Dados SQL:** Os dados são estruturados em arquivos JSON versionados em `src/data/` (`mercados.json`, `vagas-pat.json`, `telefones-uteis.json`, `noticias.json`, `artistas.json`, `onibus.json`, `coleta-lixo.json`, `pontos-interesse.json`).
+2. **Atualização Automatizada via Scraper Real & GitHub Actions:** Rotinas cron periódicas (`sync-data.yml`) coletam notícias diretamente do portal oficial da prefeitura (`sertaozinho.sp.gov.br`) e atualizam o repositório automaticamente.
+3. **Imunidade a Quedas e Ataques:** A entrega é feita como site estático servido via CDN global (GitHub Pages), blindada contra ataques DDoS e sem custos com servidores.
 
 ---
 
-## 📱 Como Gerar o APK para Android (Padrão Garden Apps & Capacitor)
+## 📱 Compilação do APK Android Nativo
 
-O **Sertãozinho Digital** adota a **mesma arquitetura móvel oficial dos outros sistemas Garden (`garden-sfx-lab`, `garden-cut`, `garden-subtitle`)**, utilizando **Capacitor Android**:
+O **Sertãozinho Digital** adota a **mesma arquitetura móvel oficial do BodyMonitor e da Suíte Garden**, utilizando **Capacitor Android**:
 
+- **No GitHub Actions:** A esteira `.github/workflows/ci.yml` compila automaticamente o arquivo `sertaozinho-digital-debug.apk` e disponibiliza o artefato para download direto na aba Actions.
+- **Localmente:**
 ```bash
 # 1. Compilar os assets web e sincronizar com o projeto nativo Android
 npm run mobile:sync
 
-# 2. Abrir o projeto no Android Studio para rodar em emulador ou dispositivo físico
+# 2. Abrir o projeto no Android Studio para rodar em dispositivo físico
 npm run mobile:open
-
-# 3. Ou compilar diretamente o APK de teste via linha de comando:
-cd android
-./gradlew assembleDebug
-# O APK gerado estará em: android/app/build/outputs/apk/debug/app-debug.apk
 ```
-
----
-
-## 📄 O que é o `.webmanifest`?
-
-O arquivo `.webmanifest` (ou `manifest.webmanifest` / `manifest.json`) é a **"carteira de identidade"** de um site para os navegadores e smartphones:
-
-* **Sem o webmanifest:** Se você tentar "adicionar à tela inicial" no Chrome, ele apenas cria um atalho de favorito comum, abrindo o navegador com a barra de endereços visível e sem identidade própria.
-* **Com o webmanifest:** O Android e o iOS reconhecem o site como uma **Progressive Web App (PWA)** real:
-  1. **`name` / `short_name`:** Define o nome do aplicativo na gaveta de apps (ex: *"Stz Digital"*).
-  2. **`icons`:** Especifica os ícones de alta resolução e com máscara adaptativa (*maskable*) para o app.
-  3. **`display: "standalone"`:** Remove a barra de navegação do Chrome, fazendo o site abrir em **tela cheia** como se tivesse sido instalado pela Play Store.
-  4. **`theme_color` e `background_color`:** Pinta a barra de status do topo do celular e exibe a tela de abertura (*splash screen*) na cor esmeralda do projeto.
-  5. **`start_url`:** Garante que o aplicativo sempre abra na página inicial limpa.
 
 ---
 
@@ -118,43 +105,28 @@ O arquivo `.webmanifest` (ou `manifest.webmanifest` / `manifest.json`) é a **"c
 * **Estilização:** Tailwind CSS v4
 * **Ícones:** Lucide React
 * **PWA & Offline:** `vite-plugin-pwa` + Workbox Service Worker
-* **Testes & Qualidade:** Vitest 5 + Oxlint
+* **Camada Nativa Mobile:** Capacitor 8 (`@capacitor/android` + `@capacitor/local-notifications`)
+* **Testes & Qualidade:** Vitest 5 (17 testes automatizados) + Oxlint
 
 ---
 
 ## 💻 Como Rodar Localmente
 
-### Pré-requisitos
-* **Node.js** (v20 ou v22 LTS recomendada)
-* **npm**
-
-### Passo a Passo
 ```bash
-# Clone o repositório
-git clone https://github.com/FelipeGardenghiDev/sertaozinho-digital.git
-
-# Acesse o diretório
-cd sertaozinho-digital
-
-# Instale as dependências
+# 1. Instalar as dependências
 npm install
 
-# Inicie o servidor local de desenvolvimento
-npm run dev
-```
+# 2. Executar a suíte de testes unitários (17 testes)
+npm test
 
-Abra seu navegador em `http://localhost:5173`.
-
-### Comandos de Teste e Build
-```bash
-# Executar a suíte de testes unitários
-npm run test
-
-# Checar linting ultrarrápido
+# 3. Validar linting
 npm run lint
 
-# Gerar build otimizada de produção
-npm run build
+# 4. Rodar o scraper real da Prefeitura
+npm run scrape
+
+# 5. Iniciar o servidor local de desenvolvimento
+npm run dev
 ```
 
 ---

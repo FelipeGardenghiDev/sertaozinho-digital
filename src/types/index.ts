@@ -118,3 +118,28 @@ export interface InfoCruzDasPosses {
   whatsapp?: string;
   destaque?: boolean;
 }
+
+export interface PontoInteresse {
+  id: string;
+  nome: string;
+  categoria: 'Saúde & SOS' | 'Ecoponto de Entulho' | 'Transporte' | 'Farmácia de Plantão' | 'Cultura & Lazer';
+  endereco: string;
+  bairro: string;
+  regiao: 'Centro' | 'Norte' | 'Sul' | 'Leste' | 'Oeste' | 'Cruz das Posses';
+  horario: string;
+  telefone?: string;
+  descricao: string;
+  latitude: number;
+  longitude: number;
+  linkGoogleMaps: string;
+}
+
+export interface SugestaoColaboracao {
+  id: string;
+  tipo: 'oferta' | 'artista' | 'vaga' | 'utilidade';
+  titulo: string;
+  detalhes: string;
+  contatoNome?: string;
+  contatoWhatsapp?: string;
+  dataEnvio: string;
+}
