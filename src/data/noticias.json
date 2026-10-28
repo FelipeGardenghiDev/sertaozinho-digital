@@ -1,32 +1,62 @@
 [
   {
-    "id": "not-stz-1793210331976-1",
+    "id": "not-stz-1793218111925-0",
+    "titulo": "SERTÃOZINHO REALIZA VACINAÇÃO NAS CRECHES",
+    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Saúde, iniciou na segunda-feira (26) uma ação de vacinação nas creches municipais para atualizar as cadernetas de vacinação das crianças e...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13240/sertaozinho-realiza-vacinacao-nas-creches-municipais-para-atualizar-cadernetas-das-criancas",
+    "categoria": "Saúde",
+    "data": "2026-10-28T20:08:31.925Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1793218111925-1",
+    "titulo": "GOVERNO MUNICIPAL REALIZA AUDIÊNCIA PÚBLICA PARA",
+    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria da Fazenda, realizou ontem, dia 27, a audiência pública para apresentação e discussão da proposta de Lei Orçamentária Anual (LOA) para 2027. O...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13239/governo-municipal-realiza-audiencia-publica-para-apresentacao-da-lei-orcamentaria-anual-loa-2027",
+    "categoria": "Cidade",
+    "data": "2026-10-28T20:08:31.925Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1793218111925-2",
+    "titulo": "CENTRO ESPORTIVO MOGIANA RECEBE EVENTO DE ADOÇÃO",
+    "resumo": "Neste sábado, dia 31 de outubro, o Governo Municipal da Estância Turística de Sertãozinho promove mais uma edição do evento de adoção pet, uma oportunidade para quem deseja abrir as portas de casa e do coração para um novo amigo....",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13238/centro-esportivo-mogiana-recebe-evento-de-adocao-pet-neste-sabado-dia-31",
+    "categoria": "Cidade",
+    "data": "2026-10-28T20:08:31.925Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1793218111925-3",
     "titulo": "SECRETARIA DE OBRAS REALIZA SERVIÇOS DE ZELADORIA",
     "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Obras, Conservação e Serviços Públicos, está realizando serviços de zeladoria, manutenção e melhorias em unidades escolares da rede municipal,...",
     "fonte": "Prefeitura de Sertãozinho",
     "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13237/secretaria-de-obras-realiza-servicos-de-zeladoria-e-melhorias-em-escolas-municipais-de-sertaozinho",
     "categoria": "Cidade",
-    "data": "2026-10-28T17:58:51.976Z",
+    "data": "2026-10-28T20:08:31.925Z",
     "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
   },
   {
-    "id": "not-stz-1793210331976-2",
+    "id": "not-stz-1793218111925-4",
     "titulo": "COMUNICADO",
     "resumo": "A Secretaria Municipal de Educação informa que, devido à realização de serviços de desinsetização, o expediente da sede da Secretaria será encerrado excepcionalmente às 12h nesta quinta-feira, dia 29. As atividades serão...",
     "fonte": "Prefeitura de Sertãozinho",
     "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13236/comunicado",
     "categoria": "Cultura",
-    "data": "2026-10-28T17:58:51.976Z",
+    "data": "2026-10-28T20:08:31.925Z",
     "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
   },
   {
-    "id": "not-stz-1793210331976-3",
+    "id": "not-stz-1793218111925-5",
     "titulo": "SERTÃOZINHO PROMOVE MISSÃO EMPRESARIAL À FEIRA DO",
     "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Desenvolvimento Econômico e Inovação, promoveu uma missão empresarial à Feira do Empreendedor, realizada no último dia 22, em São Paulo. A...",
     "fonte": "Prefeitura de Sertãozinho",
     "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13235/sertaozinho-promove-missao-empresarial-a-feira-do-empreendedor-em-sao-paulo",
     "categoria": "Cultura",
-    "data": "2026-10-28T17:58:51.976Z",
+    "data": "2026-10-28T20:08:31.925Z",
     "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
   },
   {
@@ -47,16 +77,6 @@
     "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13233/atleta-de-sertaozinho-e-convocado-para-a-selecao-brasileira-de-atletismo-sub-18",
     "categoria": "Cidade",
     "data": "2026-10-28T17:58:51.976Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1793210331953-0",
-    "titulo": "CENTRO ESPORTIVO MOGIANA RECEBE EVENTO DE ADOÇÃO",
-    "resumo": "Neste sábado, dia 31 de outubro, o Governo Municipal da Estância Turística de Sertãozinho promove mais uma edição do evento de adoção pet, uma oportunidade para quem deseja abrir as portas de casa e do coração para um novo amigo....",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13238/centro-esportivo-mogiana-recebe-evento-de-adocao-pet-neste-sabado-dia-31",
-    "categoria": "Cidade",
-    "data": "2026-10-28T17:58:51.954Z",
     "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
   },
   {
