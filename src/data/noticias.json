@@ -1,5 +1,65 @@
 [
   {
+    "id": "not-stz-1794345222521-0",
+    "titulo": "Sertãozinho lança portal de capacitação para",
+    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Administração, lançou, durante a Semana do Servidor, o Portal de Capacitação do Servidor Público. A iniciativa, que visa promover o acesso a...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13268/sertaozinho-lanca-portal-de-capacitacao-para-servidores-com-cursos-gratuitos",
+    "categoria": "Cidade",
+    "data": "2026-11-10T21:13:42.521Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1794345222521-1",
+    "titulo": "MUTIRÃO DE CASTRAÇÃO REALIZA 250 CIRURGIAS",
+    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Meio Ambiente e Agricultura, realizou, nos dias 7 e 8 de novembro, um mutirão gratuito de castração de cães e gatos em Sertãozinho e no distrito...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13267/mutirao-de-castracao-realiza-250-cirurgias-gratuitas-em-sertaozinho-e-cruz-das-posses",
+    "categoria": "Cultura",
+    "data": "2026-11-10T21:13:42.521Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1794345222521-2",
+    "titulo": "GOVERNO MUNICIPAL INAUGURA NOVA PRAÇA PÚBLICA NO",
+    "resumo": "A nova praça do Jardim Mediterrâneo “Albertina Moré Bisson” (in memoriam) está recebendo os últimos ajustes para sua inauguração. Nesta quinta-feira, dia 12, o Governo Municipal da Estância Turística de Sertãozinho inaugura o...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13266/governo-municipal-inaugura-nova-praca-publica-no-jardim-mediterraneo-nesta-quinta-feira-12",
+    "categoria": "Cultura",
+    "data": "2026-11-10T21:13:42.521Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1794345222521-3",
+    "titulo": "SECRETARIA DE ADMINISTRAÇÃO ABRE PROCESSO",
+    "resumo": "A Secretaria de Administração de Sertãozinho está com inscrições abertas para o Processo Seletivo nº 002/2026, destinado à contratação de três estagiários de nível superior, além da formação de cadastro reserva. Podem...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13265/secretaria-de-administracao-abre-processo-seletivo-para-vagas-de-estagio",
+    "categoria": "Cidade",
+    "data": "2026-11-10T21:13:42.521Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1794345222521-4",
+    "titulo": "SERTÃOZINHO RECEBE RETROESCAVADEIRA DE QUASE R$",
+    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho recebeu na última quarta-feira, dia 04, uma retroescavadeira que será utilizada pela Secretaria de Obras, Conservação e Serviços Públicos para reforçar a execução de...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13264/sertaozinho-recebe-retroescavadeira-de-quase-r-300-mil-para-reforcar-os-servicos-municipais",
+    "categoria": "Cultura",
+    "data": "2026-11-10T21:13:42.521Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1794345222521-5",
+    "titulo": "PROJETO HOPE LAB ABRE INSCRIÇÕES PARA OFICINAS DE",
+    "resumo": "O CEU das Artes recebe, nos dias 19 e 21 de novembro, oficinas gratuitas de robótica educacional do projeto Hope Lab, desenvolvido pela Steel Bulls, equipe de robótica do SESI/SENAI. As atividades serão realizadas no dia 19, às...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13263/projeto-hope-lab-abre-inscricoes-para-oficinas-de-robotica-educacional-no-ceu-das-artes",
+    "categoria": "Cidade",
+    "data": "2026-11-10T21:13:42.521Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
+  },
+  {
     "id": "not-stz-1794321240219-3",
     "titulo": "SERTÃOZINHO INICIA CICLO DE CAPACITAÇÃO COM FOCO",
     "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Saúde, realizou uma atividade de capacitação com foco em saúde mental para agentes comunitários de saúde e enfermeiras que atuam no Programa de...",
@@ -28,36 +88,6 @@
     "categoria": "Cultura",
     "data": "2026-11-10T14:34:00.219Z",
     "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1794321240218-0",
-    "titulo": "SECRETARIA DE ADMINISTRAÇÃO ABRE PROCESSO",
-    "resumo": "A Secretaria de Administração de Sertãozinho está com inscrições abertas para o Processo Seletivo nº 002/2026, destinado à contratação de quatro estagiários de nível superior, além da formação de cadastro reserva. Podem...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13265/secretaria-de-administracao-abre-processo-seletivo-para-vagas-de-estagio",
-    "categoria": "Cidade",
-    "data": "2026-11-10T14:34:00.218Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1794321240218-1",
-    "titulo": "SERTÃOZINHO RECEBE RETROESCAVADEIRA DE QUASE R$",
-    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho recebeu na última quarta-feira, dia 04, uma retroescavadeira que será utilizada pela Secretaria de Obras, Conservação e Serviços Públicos para reforçar a execução de...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13264/sertaozinho-recebe-retroescavadeira-de-quase-r-300-mil-para-reforcar-os-servicos-municipais",
-    "categoria": "Cultura",
-    "data": "2026-11-10T14:34:00.218Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1794321240218-2",
-    "titulo": "PROJETO HOPE LAB ABRE INSCRIÇÕES PARA OFICINAS DE",
-    "resumo": "O CEU das Artes recebe, nos dias 19 e 21 de novembro, oficinas gratuitas de robótica educacional do projeto Hope Lab, desenvolvido pela Steel Bulls, equipe de robótica do SESI/SENAI. As atividades serão realizadas no dia 19, às...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13263/projeto-hope-lab-abre-inscricoes-para-oficinas-de-robotica-educacional-no-ceu-das-artes",
-    "categoria": "Cidade",
-    "data": "2026-11-10T14:34:00.218Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
   },
   {
     "id": "not-stz-1794238706823-5",
@@ -167,36 +197,6 @@
     "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13248/governo-municipal-investe-mais-de-r-85-milhoes-em-nova-etapa-de-recapeamento-asfaltico-em-sertaozinho",
     "categoria": "Cidade",
     "data": "2026-11-05T14:19:43.736Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1793888383736-5",
-    "titulo": "PAT SERTÃOZINHO RECEBE CANDIDATOS PARA VAGAS EM",
-    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Desenvolvimento Econômico e Inovação e do Posto de Atendimento ao Trabalhador (PAT), realiza um processo seletivo para trabalhadores interessados...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13247/pat-sertaozinho-recebe-candidatos-para-vagas-em-empresa-de-limpeza-urbana-nesta-quinta-feira-5",
-    "categoria": "Economia",
-    "data": "2026-11-05T14:19:43.736Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1793888383735-0",
-    "titulo": "COM MAIS CALOR E CHUVAS, INCIDENTES COM",
-    "resumo": "Saúde Com a chegada do período de calor e chuvas, o Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Saúde e do Núcleo de Controle de Vetores e Zoonoses, reforça as orientações para prevenir acidentes...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13252/com-mais-calor-e-chuvas-incidentes-com-escorpioes-podem-aumentar-nesta-epoca-do-ano-veja-como-se-proteger",
-    "categoria": "Saúde",
-    "data": "2026-11-05T14:19:43.735Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1793800720630-5",
-    "titulo": "SERTÃOZINHO RECEBE PLANTÃO DE ATENDIMENTO DA CDHU",
-    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho informa que a Companhia de Desenvolvimento Habitacional e Urbano (CDHU), vinculada à Secretaria de Desenvolvimento Urbano e Habitação do Estado de São Paulo, realiza na...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13241/sertaozinho-recebe-plantao-de-atendimento-da-cdhu-na-quarta-feira-dia-4",
-    "categoria": "Cidade",
-    "data": "2026-11-04T13:58:40.630Z",
     "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
   }
 ]
