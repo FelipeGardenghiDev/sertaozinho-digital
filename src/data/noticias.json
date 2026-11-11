@@ -1,52 +1,62 @@
 [
   {
-    "id": "not-stz-1794404931699-0",
+    "id": "not-stz-1794433682228-0",
+    "titulo": "SERTÃOZINHO PREPARA PROGRAMAÇÃO ESPECIAL EM",
+    "resumo": "No dia 20 de novembro é celebrado o Dia Nacional de Zumbi e da Consciência Negra, data que homenageia Zumbi dos Palmares e propõe uma reflexão sobre a história, a resistência e a luta da população negra contra o racismo. Em...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13269/sertaozinho-prepara-programacao-especial-em-celebracao-ao-dia-da-consciencia-negra",
+    "categoria": "Cidade",
+    "data": "2026-11-11T21:48:02.228Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1794433682228-1",
     "titulo": "Sertãozinho lança portal de capacitação para",
     "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Administração, lançou, durante a Semana do Servidor, o Portal de Capacitação do Servidor Público. A iniciativa, que visa promover o acesso a...",
     "fonte": "Prefeitura de Sertãozinho",
     "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13268/sertaozinho-lanca-portal-de-capacitacao-para-servidores-com-cursos-gratuitos",
     "categoria": "Cidade",
-    "data": "2026-11-11T13:48:51.699Z",
+    "data": "2026-11-11T21:48:02.228Z",
     "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
   },
   {
-    "id": "not-stz-1794404931699-1",
+    "id": "not-stz-1794433682228-2",
     "titulo": "MUTIRÃO DE CASTRAÇÃO REALIZA 250 CIRURGIAS",
     "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Meio Ambiente e Agricultura, realizou, nos dias 7 e 8 de novembro, um mutirão gratuito de castração de cães e gatos em Sertãozinho e no distrito...",
     "fonte": "Prefeitura de Sertãozinho",
     "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13267/mutirao-de-castracao-realiza-250-cirurgias-gratuitas-em-sertaozinho-e-cruz-das-posses",
     "categoria": "Cultura",
-    "data": "2026-11-11T13:48:51.699Z",
+    "data": "2026-11-11T21:48:02.228Z",
     "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
   },
   {
-    "id": "not-stz-1794404931699-2",
+    "id": "not-stz-1794433682228-3",
     "titulo": "GOVERNO MUNICIPAL INAUGURA NOVA PRAÇA PÚBLICA NO",
     "resumo": "A nova praça do Jardim Mediterrâneo “Albertina Moré Bisson” (in memoriam) está recebendo os últimos ajustes para sua inauguração. Nesta quinta-feira, dia 12, o Governo Municipal da Estância Turística de Sertãozinho inaugura o...",
     "fonte": "Prefeitura de Sertãozinho",
     "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13266/governo-municipal-inaugura-nova-praca-publica-no-jardim-mediterraneo-nesta-quinta-feira-12",
     "categoria": "Cultura",
-    "data": "2026-11-11T13:48:51.699Z",
+    "data": "2026-11-11T21:48:02.228Z",
     "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
   },
   {
-    "id": "not-stz-1794404931699-3",
+    "id": "not-stz-1794433682228-4",
     "titulo": "SECRETARIA DE ADMINISTRAÇÃO ABRE PROCESSO",
     "resumo": "A Secretaria de Administração de Sertãozinho está com inscrições abertas para o Processo Seletivo nº 002/2026, destinado à contratação de três estagiários de nível superior, além da formação de cadastro reserva. Podem...",
     "fonte": "Prefeitura de Sertãozinho",
     "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13265/secretaria-de-administracao-abre-processo-seletivo-para-vagas-de-estagio",
     "categoria": "Cidade",
-    "data": "2026-11-11T13:48:51.699Z",
+    "data": "2026-11-11T21:48:02.228Z",
     "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
   },
   {
-    "id": "not-stz-1794404931699-4",
+    "id": "not-stz-1794433682228-5",
     "titulo": "SERTÃOZINHO RECEBE RETROESCAVADEIRA DE QUASE R$",
     "resumo": "O Governo Municipal da Estância Turística de Sertãozinho recebeu na última quarta-feira, dia 04, uma retroescavadeira que será utilizada pela Secretaria de Obras, Conservação e Serviços Públicos para reforçar a execução de...",
     "fonte": "Prefeitura de Sertãozinho",
     "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13264/sertaozinho-recebe-retroescavadeira-de-quase-r-300-mil-para-reforcar-os-servicos-municipais",
     "categoria": "Cultura",
-    "data": "2026-11-11T13:48:51.699Z",
+    "data": "2026-11-11T21:48:02.228Z",
     "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
   },
   {
@@ -188,15 +198,5 @@
     "categoria": "Cultura",
     "data": "2026-11-05T14:19:43.736Z",
     "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1793888383736-4",
-    "titulo": "GOVERNO MUNICIPAL INVESTE MAIS DE R$ 8,5 MILHÕES",
-    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho iniciou, recentemente, uma nova etapa de obras de recapeamento asfáltico em ruas e avenidas do município. Com investimento de R$ 8.799.999,37, os serviços têm prazo de...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13248/governo-municipal-investe-mais-de-r-85-milhoes-em-nova-etapa-de-recapeamento-asfaltico-em-sertaozinho",
-    "categoria": "Cidade",
-    "data": "2026-11-05T14:19:43.736Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
   }
 ]
