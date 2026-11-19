@@ -1,5 +1,65 @@
 [
   {
+    "id": "not-stz-1795102053376-1",
+    "titulo": "Secretaria de Saúde de Sertãozinho realiza",
+    "resumo": "O feriado prolongado será de muito trabalho para as equipes da Secretaria Municipal de Saúde de Sertãozinho. É que a pasta, através da Central de Regulação, organizou um mutirão na especialidade de oftalmologia, que ocorrerá...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13285/secretaria-de-saude-de-sertaozinho-realiza-mutirao-de-consultas-em-oftalmologia-entre-os-dias-20-e-2211-previsao-e-de-que-1300-pacientes-sejam-atendidos",
+    "categoria": "Saúde",
+    "data": "2026-11-19T15:27:33.376Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1795102053376-2",
+    "titulo": "CONFIRA O QUE ABRE E O QUE FECHA EM SERTÃOZINHO",
+    "resumo": "Administração Sexta-feira, 20 de novembro, é o Dia da Consciência Negra, feriado nacional previsto na Lei nº 14.759, de 21 de dezembro de 2023. Por esse motivo, a maior parte das repartições municipais não funcionará nesse dia e algumas...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13284/confira-o-que-abre-e-o-que-fecha-em-sertaozinho-no-feriado-do-dia-da-consciencia-negra",
+    "categoria": "Cultura",
+    "data": "2026-11-19T15:27:33.376Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1795102053376-3",
+    "titulo": "FORMATURA DO PROERD REÚNE 725 ALUNOS DA REDE",
+    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho e a Polícia Militar do Estado de São Paulo (PM-SP) realizaram na noite de ontem, terça-feira (18), a cerimônia de formatura de alunos do Programa Educacional de Resistência...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13283/formatura-do-proerd-reune-725-alunos-da-rede-municipal-no-docao",
+    "categoria": "Cultura",
+    "data": "2026-11-19T15:27:33.376Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1795102053376-4",
+    "titulo": "SERTÃOZINHO RECEBE CURSO GRATUITO DE RECEITAS",
+    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Desenvolvimento Econômico e Inovação, oferece à população um curso gratuito de receitas natalinas do programa “Cozinhalimento”, que ensinará a...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13282/sertaozinho-recebe-curso-gratuito-de-receitas-natalinas-do-cozinhalimento",
+    "categoria": "Economia",
+    "data": "2026-11-19T15:27:33.376Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1795102053376-5",
+    "titulo": "1º TORNEIO DE MALHA DE CRUZ DAS POSSES ACONTECE",
+    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria Municipal de Esportes e Lazer, realiza neste domingo, dia 22, a primeira edição do Torneio de Malha de Cruz das Posses. As partidas começam às 8h,...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13281/1-torneio-de-malha-de-cruz-das-posses-acontece-neste-domingo-22",
+    "categoria": "Cidade",
+    "data": "2026-11-19T15:27:33.376Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1795102053375-0",
+    "titulo": "SERTÃOZINHO RECEBE 1º MUTIRÃO DE EMISSÃO DE",
+    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Desenvolvimento Econômico e Inovação, e a Secretaria de Estado dos Direitos da Pessoa com Deficiência (SEDPcD) de São Paulo realizam, no dia 27,...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13286/sertaozinho-recebe-1-mutirao-de-emissao-de-laudos-para-pessoas-com-deficiencia",
+    "categoria": "Cidade",
+    "data": "2026-11-19T15:27:33.375Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
+  },
+  {
     "id": "not-stz-1795015270511-2",
     "titulo": "DIA 28 TEM ARRASTÃO CONTRA A DENGUE EM",
     "resumo": "A luta contra a dengue é uma responsabilidade de todos! No próximo dia 28, sábado, Sertãozinho e Cruz das Posses recebem mais uma edição do Arrastão Contra a Dengue, uma mobilização que convida os moradores a eliminar possíveis...",
@@ -137,66 +197,6 @@
     "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13267/mutirao-de-castracao-realiza-250-cirurgias-gratuitas-em-sertaozinho-e-cruz-das-posses",
     "categoria": "Cultura",
     "data": "2026-11-13T14:13:36.835Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1794495069352-4",
-    "titulo": "GOVERNO MUNICIPAL INAUGURA NOVA PRAÇA PÚBLICA NO",
-    "resumo": "A nova praça do Jardim Mediterrâneo “Albertina Moré Bisson” (in memoriam) está recebendo os últimos ajustes para sua inauguração. Nesta quinta-feira, dia 12, o Governo Municipal da Estância Turística de Sertãozinho inaugura o...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13266/governo-municipal-inaugura-nova-praca-publica-no-jardim-mediterraneo-nesta-quinta-feira-12",
-    "categoria": "Cultura",
-    "data": "2026-11-12T14:51:09.352Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1794495069352-5",
-    "titulo": "SECRETARIA DE ADMINISTRAÇÃO ABRE PROCESSO",
-    "resumo": "A Secretaria de Administração de Sertãozinho está com inscrições abertas para o Processo Seletivo nº 002/2026, destinado à contratação de três estagiários de nível superior, além da formação de cadastro reserva. Podem...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13265/secretaria-de-administracao-abre-processo-seletivo-para-vagas-de-estagio",
-    "categoria": "Cidade",
-    "data": "2026-11-12T14:51:09.352Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1794433682228-5",
-    "titulo": "SERTÃOZINHO RECEBE RETROESCAVADEIRA DE QUASE R$",
-    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho recebeu na última quarta-feira, dia 04, uma retroescavadeira que será utilizada pela Secretaria de Obras, Conservação e Serviços Públicos para reforçar a execução de...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13264/sertaozinho-recebe-retroescavadeira-de-quase-r-300-mil-para-reforcar-os-servicos-municipais",
-    "categoria": "Cultura",
-    "data": "2026-11-11T21:48:02.228Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1794404931699-5",
-    "titulo": "PROJETO HOPE LAB ABRE INSCRIÇÕES PARA OFICINAS DE",
-    "resumo": "O CEU das Artes recebe, nos dias 19 e 21 de novembro, oficinas gratuitas de robótica educacional do projeto Hope Lab, desenvolvido pela Steel Bulls, equipe de robótica do SESI/SENAI. As atividades serão realizadas no dia 19, às...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13263/projeto-hope-lab-abre-inscricoes-para-oficinas-de-robotica-educacional-no-ceu-das-artes",
-    "categoria": "Cidade",
-    "data": "2026-11-11T13:48:51.699Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1794321240219-3",
-    "titulo": "SERTÃOZINHO INICIA CICLO DE CAPACITAÇÃO COM FOCO",
-    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Saúde, realizou uma atividade de capacitação com foco em saúde mental para agentes comunitários de saúde e enfermeiras que atuam no Programa de...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13262/sertaozinho-inicia-ciclo-de-capacitacao-com-foco-em-saude-mental-para-agentes-comunitarios-e-enfermeiras",
-    "categoria": "Saúde",
-    "data": "2026-11-10T14:34:00.219Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1794321240219-4",
-    "titulo": "CEU DAS ARTES RECEBE ESPETÁCULO TEATRAL GRATUITO",
-    "resumo": "O Anfiteatro do Centro de Artes e Esportes Unificados “Eurides Ferraz Teixeira” (CEU das Artes) recebe, na próxima terça-feira, dia 10, às 20h, o espetáculo teatral “Antes que eu me esqueça”, produzido pelo SESI Ribeirão Preto,...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13261/ceu-das-artes-recebe-espetaculo-teatral-gratuito-antes-que-eu-me-esqueca-na-terca-feira-dia-10",
-    "categoria": "Cultura",
-    "data": "2026-11-10T14:34:00.219Z",
     "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
   }
 ]
