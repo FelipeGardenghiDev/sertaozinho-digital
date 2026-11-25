@@ -1,5 +1,65 @@
 [
   {
+    "id": "not-stz-1795625821682-1",
+    "titulo": "SERTÃOZINHO É VICE-CAMPEÃO ESTADUAL DA SÉRIE",
+    "resumo": "A equipe masculina de voleibol adaptado de Sertãozinho conquistou o vice-campeonato estadual da Série Prata, na categoria 68+, da Superliga da Melhor Idade. A 7ª Final Estadual da competição foi realizada entre os dias 19 e 22 de...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13294/sertaozinho-e-vice-campeao-estadual-da-serie-prata-de-voleibol-adaptado",
+    "categoria": "Cidade",
+    "data": "2026-11-25T16:57:01.682Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1795625821682-2",
+    "titulo": "SERTÃOZINHO FORMALIZA FÓRUM MUNICIPAL DE",
+    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho formalizou, na manhã desta segunda-feira, dia 23, o Fórum Municipal de Prevenção e Erradicação do Trabalho Infantil e de Estímulo à Aprendizagem. A reunião aconteceu na...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13293/sertaozinho-formaliza-forum-municipal-de-prevencao-e-erradicacao-do-trabalho-infantil",
+    "categoria": "Cultura",
+    "data": "2026-11-25T16:57:01.682Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1795625821682-3",
+    "titulo": "SERTÃOZINHO HOMENAGEIA ESTUDANTES MEDALHISTAS NA",
+    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Educação, realizou, na quinta-feira, dia 19, uma cerimônia em homenagem aos estudantes que conquistaram medalhas nacionais e estaduais na 20ª...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13292/sertaozinho-homenageia-estudantes-medalhistas-na-olimpiada-da-matematica",
+    "categoria": "Cultura",
+    "data": "2026-11-25T16:57:01.682Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1795625821682-4",
+    "titulo": "CCI DE SERTÃOZINHO PROMOVE INTERCÂMBIO CULTURAL E",
+    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria Municipal de Assistência Social e Direitos Humanos, promoveu uma experiência de integração e troca cultural entre os participantes do Centro de...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13291/cci-de-sertaozinho-promove-intercambio-cultural-e-integracao-com-idosos-de-dumont",
+    "categoria": "Cultura",
+    "data": "2026-11-25T16:57:01.682Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1795625821682-5",
+    "titulo": "SAMBA DA CONSCIÊNCIA AGITOU O FERIADO COM MÚSICA",
+    "resumo": "Com muita música, alegria e valorização da cultura afro-brasileira, a Praça Mané Gaiola foi palco de uma celebração especial na última sexta-feira, dia 20, feriado da Consciência Negra. O Samba da Consciência reuniu famílias e...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13290/samba-da-consciencia-agitou-o-feriado-com-musica-boa-e-danca-na-praca-mane-gaiola",
+    "categoria": "Cultura",
+    "data": "2026-11-25T16:57:01.682Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1795625821681-0",
+    "titulo": "ARRASTÃO CONTRA A DENGUE É NO SÁBADO, DIA 28",
+    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho realiza neste sábado, dia 28, mais um Arrastão Contra a Dengue, mobilização que tem como objetivo eliminar potenciais criadouros do mosquito Aedes aegypti, transmissor de...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13295/arrastao-contra-a-dengue-e-no-sabado-dia-28",
+    "categoria": "Saúde",
+    "data": "2026-11-25T16:57:01.681Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=800&auto=format&fit=crop&q=80"
+  },
+  {
     "id": "not-stz-1795540358243-3",
     "titulo": "SECRETARIA DE MEIO AMBIENTE REALIZA PREMIAÇÃO DA",
     "resumo": "O Governo Municipal da Estância Turística de Sertãozinho realizou, na última quarta-feira, dia 18, a cerimônia de premiação da Gincana Verde 2026 – 3ª edição. O encontro aconteceu no Centro de Capacitação dos Profissionais da...",
@@ -28,36 +88,6 @@
     "categoria": "Cidade",
     "data": "2026-11-24T17:12:38.243Z",
     "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1795540358242-0",
-    "titulo": "SERTÃOZINHO HOMENAGEIA ESTUDANTES MEDALHISTAS NA",
-    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Educação, realizou, na quinta-feira, dia 19, uma cerimônia em homenagem aos estudantes que conquistaram medalhas nacionais e estaduais na 20ª...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13292/sertaozinho-homenageia-estudantes-medalhistas-na-olimpiada-da-matematica",
-    "categoria": "Cultura",
-    "data": "2026-11-24T17:12:38.242Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1795540358242-1",
-    "titulo": "CCI DE SERTÃOZINHO PROMOVE INTERCÂMBIO CULTURAL E",
-    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria Municipal de Assistência Social e Direitos Humanos, promoveu uma experiência de integração e troca cultural entre os participantes do Centro de...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13291/cci-de-sertaozinho-promove-intercambio-cultural-e-integracao-com-idosos-de-dumont",
-    "categoria": "Cultura",
-    "data": "2026-11-24T17:12:38.242Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1795540358242-2",
-    "titulo": "SAMBA DA CONSCIÊNCIA AGITOU O FERIADO COM MÚSICA",
-    "resumo": "Com muita música, alegria e valorização da cultura afro-brasileira, a Praça Mané Gaiola foi palco de uma celebração especial na última sexta-feira, dia 20, feriado da Consciência Negra. O Samba da Consciência reuniu famílias e...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13290/samba-da-consciencia-agitou-o-feriado-com-musica-boa-e-danca-na-praca-mane-gaiola",
-    "categoria": "Cultura",
-    "data": "2026-11-24T17:12:38.242Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
   },
   {
     "id": "not-stz-1795455659337-4",
@@ -168,35 +198,5 @@
     "categoria": "Cultura",
     "data": "2026-11-18T15:21:10.510Z",
     "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1795015270510-1",
-    "titulo": "13ª CONFERÊNCIA MUNICIPAL DOS DIREITOS DA CRIANÇA",
-    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Assistência Social e Direitos Humanos, e o Conselho Municipal dos Direitos da Criança e do Adolescente convidam a população para participar da...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13279/13-conferencia-municipal-dos-direitos-da-crianca-e-do-adolescente-acontece-no-proximo-dia-24",
-    "categoria": "Cidade",
-    "data": "2026-11-18T15:21:10.510Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1794930113575-4",
-    "titulo": "PRAÇA “ALBERTINA MORÉ BISSON” É INAUGURADA NO",
-    "resumo": "A população do Jardim Mediterrâneo e região passou a contar com um novo espaço de lazer e convivência. A Praça “Albertina Moré Bisson” foi inaugurada ontem, quinta-feira, dia 12, em cerimônia que reuniu autoridades dos poderes...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13274/praca-albertina-more-bisson-e-inaugurada-no-jardim-mediterraneo",
-    "categoria": "Cultura",
-    "data": "2026-11-17T15:41:53.575Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1794930113575-5",
-    "titulo": "Governo Municipal renova frota da Guarda Civil",
-    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Segurança Pública e Mobilidade Urbana, adquiriu 14 novas viaturas do modelo Renault Duster para a frota da Guarda Civil Metropolitana...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13273/governo-municipal-renova-frota-da-guarda-civil-metropolitana-de-sertaozinho",
-    "categoria": "Policial",
-    "data": "2026-11-17T15:41:53.575Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?w=800&auto=format&fit=crop&q=80"
   }
 ]
