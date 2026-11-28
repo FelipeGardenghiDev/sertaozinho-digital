@@ -1,22 +1,62 @@
 [
   {
-    "id": "not-stz-1795796529834-1",
+    "id": "not-stz-1795878905376-0",
+    "titulo": "23º FESTIVAL DE TEATRO DE RUA GANHA NOVO NOME A",
+    "resumo": "A história do teatro em Sertãozinho passa por pessoas que dedicaram suas vidas à arte, à formação de novos talentos e ao fortalecimento da cultura local. A partir da edição de 2026, o Festival de Teatro de Rua passa a se chamar...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13309/23-festival-de-teatro-de-rua-ganha-novo-nome-a-partir-desta-edicao-em-homenagem-a-ze-luiz-de-oliveira",
+    "categoria": "Cultura",
+    "data": "2026-11-28T15:15:05.376Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1795878905376-1",
+    "titulo": "ATO DE POSSE DA NOVA GESTÃO DO CONSELHO MUNICIPAL",
+    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho registra a posse dos novos conselheiros e da mesa diretora do Conselho Municipal da Pessoa Idosa (CMI), realizada na Sala Multiúso do Paço Municipal “Dr. Antônio Almussa...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13307/ato-de-posse-da-nova-gestao-do-conselho-municipal-da-pessoa-idosa-acontece-no-paco-municipal",
+    "categoria": "Cidade",
+    "data": "2026-11-28T15:15:05.376Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1795878905376-2",
+    "titulo": "AGENDA ESPORTIVA: ÚLTIMO FIM DE SEMANA DE",
+    "resumo": "​O último fim de semana de novembro chega com uma programação diversificada de esporte e lazer em Sertãozinho. Ao longo do sábado e do domingo, o público poderá acompanhar competições de futsal, futebol, jiu-jitsu, bocha e outras...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13305/agenda-esportiva-ultimo-fim-de-semana-de-novembro-tem-atracoes-de-varias-modalidades",
+    "categoria": "Cidade",
+    "data": "2026-11-28T15:15:05.376Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1795878905376-3",
+    "titulo": "EVENTO DE ADOÇÃO PET ACONTECE NESTE SÁBADO (28),",
+    "resumo": "Tem carinho, companheirismo e muita alegria esperando por você! Neste sábado, dia 28, a Praça 21 de Abril será ponto de encontro de cães e gatos que estão à procura de uma família para chamar de sua. O Governo Municipal da...",
+    "fonte": "Prefeitura de Sertãozinho",
+    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13304/evento-de-adocao-pet-acontece-neste-sabado-28-na-praca-21-de-abril",
+    "categoria": "Cidade",
+    "data": "2026-11-28T15:15:05.376Z",
+    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "not-stz-1795878905376-4",
     "titulo": "SERTÃOZINHO TEM PROGRAMAÇÃO ESPECIAL NO FIM DE",
     "resumo": "A Black Friday terá uma programação especial este ano em Sertãozinho! O Governo Municipal, por meio das Secretarias de Cultura e Turismo e de Desenvolvimento Econômico e Inovação, preparou uma agenda de atividades que contempla...",
     "fonte": "Prefeitura de Sertãozinho",
     "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13303/sertaozinho-tem-programacao-especial-no-fim-de-semana-da-black-friday-com-musica-e-luzes-natalinas",
     "categoria": "Cultura",
-    "data": "2026-11-27T16:22:09.834Z",
+    "data": "2026-11-28T15:15:05.376Z",
     "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
   },
   {
-    "id": "not-stz-1795796529834-2",
+    "id": "not-stz-1795878905376-5",
     "titulo": "FINAL DO TORNEIO DE FUTSAL PAULO PRETO ACONTECE",
     "resumo": "A decisão do torneio municipal de futsal “Paulo Preto” (In Memoriam) acontece nesta sexta-feira, dia 27, às 19h, na quadra esportiva do Centro Comunitário \"João Rodrigues de Lima\". A partida será disputada entre as equipes Ajax e...",
     "fonte": "Prefeitura de Sertãozinho",
     "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13302/final-do-torneio-de-futsal-paulo-preto-acontece-nesta-sexta-feira-27",
     "categoria": "Cultura",
-    "data": "2026-11-27T16:22:09.834Z",
+    "data": "2026-11-28T15:15:05.376Z",
     "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
   },
   {
@@ -48,16 +88,6 @@
     "categoria": "Saúde",
     "data": "2026-11-27T16:22:09.834Z",
     "imagemUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1795796529833-0",
-    "titulo": "EVENTO DE ADOÇÃO PET ACONTECE NESTE SÁBADO (28),",
-    "resumo": "Tem carinho, companheirismo e muita alegria esperando por você! Neste sábado, dia 28, a Praça 21 de Abril será ponto de encontro de cães e gatos que estão à procura de uma família para chamar de sua. O Governo Municipal da...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13304/evento-de-adocao-pet-acontece-neste-sabado-28-na-praca-21-de-abril",
-    "categoria": "Cidade",
-    "data": "2026-11-27T16:22:09.833Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
   },
   {
     "id": "not-stz-1795710993697-4",
@@ -168,35 +198,5 @@
     "categoria": "Cidade",
     "data": "2026-11-24T17:12:38.243Z",
     "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1795455659337-4",
-    "titulo": "SERTÃOZINHO RECEBE 1º MUTIRÃO DE EMISSÃO DE",
-    "resumo": "O Governo Municipal da Estância Turística de Sertãozinho, por meio da Secretaria de Desenvolvimento Econômico e Inovação, e a Secretaria de Estado dos Direitos da Pessoa com Deficiência (SEDPcD) de São Paulo realizam, no dia 27,...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13286/sertaozinho-recebe-1-mutirao-de-emissao-de-laudos-para-pessoas-com-deficiencia",
-    "categoria": "Cidade",
-    "data": "2026-11-23T17:40:59.337Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1795455659337-5",
-    "titulo": "Secretaria de Saúde de Sertãozinho realiza",
-    "resumo": "O feriado prolongado será de muito trabalho para as equipes da Secretaria Municipal de Saúde de Sertãozinho. É que a pasta, através da Central de Regulação, organizou um mutirão na especialidade de oftalmologia, que ocorrerá...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13285/secretaria-de-saude-de-sertaozinho-realiza-mutirao-de-consultas-em-oftalmologia-entre-os-dias-20-e-2211-previsao-e-de-que-1300-pacientes-sejam-atendidos",
-    "categoria": "Saúde",
-    "data": "2026-11-23T17:40:59.337Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    "id": "not-stz-1795294165901-4",
-    "titulo": "CONFIRA O QUE ABRE E O QUE FECHA EM SERTÃOZINHO",
-    "resumo": "Turismo Sexta-feira, 20 de novembro, é o Dia da Consciência Negra, feriado nacional previsto na Lei nº 14.759, de 21 de dezembro de 2023. Por esse motivo, a maior parte das repartições municipais não funcionará nesse dia e algumas...",
-    "fonte": "Prefeitura de Sertãozinho",
-    "url": "https://www.sertaozinho.sp.gov.br/portal/noticias/0/3/13284/confira-o-que-abre-e-o-que-fecha-em-sertaozinho-no-feriado-do-dia-da-consciencia-negra",
-    "categoria": "Cultura",
-    "data": "2026-11-21T20:49:25.901Z",
-    "imagemUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&auto=format&fit=crop&q=80"
   }
 ]
